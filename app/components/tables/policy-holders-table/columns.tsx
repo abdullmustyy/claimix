@@ -9,7 +9,9 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
+import { cn } from "~/lib/utils";
 import { DataTableColumnHeader } from "../data-table/data-table-column-header";
+import DataTableStatusIndicator from "../data-table/data-table-status-indicator";
 
 export interface IPolicyHolder {
     id: string;
@@ -91,6 +93,9 @@ export const policyHoldersColumns: ColumnDef<IPolicyHolder>[] = [
         header: ({ column }) => (
             <DataTableColumnHeader column={column} title="Status" />
         ),
+        cell: ({ row }) => {
+            return <DataTableStatusIndicator status={row.getValue("status")} />;
+        },
         enableSorting: false,
         enableHiding: false,
     },
