@@ -66,7 +66,7 @@ export function DataTable<TData>({
                             </TableRow>
                         ))}
                     </TableHeader>
-                    <TableBody>
+                    <TableBody className="[&_tr:last-child]:border-b-1">
                         {table.getRowModel().rows?.length ? (
                             table.getRowModel().rows.map((row) => (
                                 <TableRow
@@ -108,7 +108,8 @@ export function DataTable<TData>({
                 </Table>
                 <ScrollBar orientation="horizontal" className="hidden" />
             </ScrollArea>
-            <div className="flex flex-col gap-2.5">
+
+            <div className="flex flex-col gap-2.5 px-4 pb-8 mt-4">
                 <DataTablePagination table={table} />
                 {actionBar &&
                     table.getFilteredSelectedRowModel().rows.length > 0 &&

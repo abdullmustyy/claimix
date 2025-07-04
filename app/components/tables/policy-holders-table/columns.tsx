@@ -38,7 +38,7 @@ export const policyHoldersColumns: ColumnDef<IPolicyHolder>[] = [
                     table.toggleAllPageRowsSelected(!!value)
                 }
                 aria-label="Select all"
-                className="bg-white border-[1.5px] mx-2 data-[state=checked]:bg-sky-blue data-[state=checked]:border-none data-[state=checked]:ring data-[state=checked]:ring-sky-blue data-[state=checked]:ring-offset-1"
+                className="bg-white border-[1.5px] ml-2 data-[state=checked]:bg-sky-blue data-[state=checked]:border-none data-[state=checked]:ring data-[state=checked]:ring-sky-blue data-[state=checked]:ring-offset-1"
             />
         ),
         cell: ({ row }) => (
@@ -46,7 +46,7 @@ export const policyHoldersColumns: ColumnDef<IPolicyHolder>[] = [
                 checked={row.getIsSelected()}
                 onCheckedChange={(value) => row.toggleSelected(!!value)}
                 aria-label="Select row"
-                className="bg-white border-[1.5px] mx-2 data-[state=checked]:bg-sky-blue data-[state=checked]:border-none data-[state=checked]:ring data-[state=checked]:ring-sky-blue data-[state=checked]:ring-offset-1"
+                className="bg-white border-[1.5px] ml-2 data-[state=checked]:bg-sky-blue data-[state=checked]:border-none data-[state=checked]:ring data-[state=checked]:ring-sky-blue data-[state=checked]:ring-offset-1"
             />
         ),
         enableSorting: false,

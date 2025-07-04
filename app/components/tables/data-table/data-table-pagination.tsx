@@ -43,8 +43,8 @@ export function DataTablePagination<TData>({
         >
             <div className="flex-1 whitespace-nowrap font-medium text-iron-gray text-sm">
                 {startRow} - {endRow} of {totalRows} results
-        </div>
-        
+            </div>
+
             <div className="flex items-center gap-3">
                 <Button
                     aria-label="Go to previous page"
@@ -59,7 +59,8 @@ export function DataTablePagination<TData>({
 
                 <div className="flex items-center justify-center font-medium text-sm text-iron-gray">
                     {table.getState().pagination.pageIndex + 1} of{" "}
-                    {table.getPageCount()} pages
+                    {table.getPageCount()}{" "}
+                    {table.getPageCount() === 1 ? "page" : "pages"}
                 </div>
 
                 <Button

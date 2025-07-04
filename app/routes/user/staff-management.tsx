@@ -10,7 +10,7 @@ const StaffManagement = () => {
                 </p>
             </header>
 
-            <StaffManagementTable />
+            <StaffManagementTable  />
         </section>
     );
 };
