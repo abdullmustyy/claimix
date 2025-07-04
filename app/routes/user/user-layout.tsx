@@ -8,14 +8,12 @@ const UserLayout = () => {
         <SidebarProvider>
             <AppSidebar variant="inset" />
 
-            <SidebarInset className="md:peer-data-[variant=inset]:mt-0">
-                <AppHeader />
+            <SidebarInset className="md:peer-data-[variant=inset]:m-0 md:peer-data-[variant=inset]:rounded-none h-screen overflow-y-hidden">
+                <AppHeader className="bg-white sticky top-0 z-10" />
 
-                <div className="flex flex-1 flex-col">
-                    <div className="@container/main flex flex-1 flex-col gap-2">
-                        <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
-                            <Outlet />
-                        </div>
+                <div className="flex flex-1 flex-col overflow-y-auto hide-scrollbar">
+                    <div className="@container/main flex flex-1 flex-col gap-2 bg-icy-white">
+                        <Outlet />
                     </div>
                 </div>
             </SidebarInset>

@@ -1,0 +1,1002 @@
+[
+    {
+        "id": "25ecbe41-7e01-4e72-810a-bb9b0c602a69",
+        "staff_name": "Olivia Wilson",
+        "email": "olivia.wilson@company.com",
+        "role": "Manager",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2021-10-24",
+        "last_login": "2025-11-07 17:21"
+    },
+    {
+        "id": "2530fa7d-5b73-4654-96e8-6c1c124bb71b",
+        "staff_name": "Emma Lee",
+        "email": "emma.lee@staffmail.com",
+        "role": "Analyst",
+        "department": "Sales",
+        "status": "Inactive",
+        "date_joined": "2024-10-27",
+        "last_login": "2023-12-23 07:23"
+    },
+    {
+        "id": "fd9a21cf-c189-4f12-a29d-8185083afd6c",
+        "staff_name": "Sarah Taylor",
+        "email": "sarah.taylor@org.io",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Inactive",
+        "date_joined": "2019-05-24",
+        "last_login": "2023-04-27 10:01"
+    },
+    {
+        "id": "09771c42-4a10-4fe6-8d57-72a835e862b1",
+        "staff_name": "John Johnson",
+        "email": "john.johnson@org.io",
+        "role": "Admin",
+        "department": "Design",
+        "status": "Inactive",
+        "date_joined": "2020-08-19",
+        "last_login": "2023-10-05 03:37"
+    },
+    {
+        "id": "06362b4e-0e6a-4986-b7ff-b9a04ec2f400",
+        "staff_name": "Daniel Taylor",
+        "email": "daniel.taylor@staffmail.com",
+        "role": "Designer",
+        "department": "Engineering",
+        "status": "Inactive",
+        "date_joined": "2020-04-22",
+        "last_login": "2025-01-12 00:52"
+    },
+    {
+        "id": "53ac7a54-f541-4f39-8cf7-005c1e0925fa",
+        "staff_name": "Daniel Anderson",
+        "email": "daniel.anderson@org.io",
+        "role": "Admin",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2020-09-02",
+        "last_login": "2024-10-23 00:15"
+    },
+    {
+        "id": "56f0b6f9-e32b-4782-8b09-6d715e648701",
+        "staff_name": "Sarah Johnson",
+        "email": "sarah.johnson@org.io",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2020-03-25",
+        "last_login": "2025-01-12 14:14"
+    },
+    {
+        "id": "825f4d84-3ebf-4c6d-88aa-0c44e79cf281",
+        "staff_name": "John Brown",
+        "email": "john.brown@org.io",
+        "role": "Manager",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2020-01-19",
+        "last_login": "2025-08-10 04:11"
+    },
+    {
+        "id": "22a15e52-631f-4c91-92e3-d5e596629c4d",
+        "staff_name": "David Martin",
+        "email": "david.martin@staffmail.com",
+        "role": "Engineer",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2022-02-12",
+        "last_login": "2025-09-25 04:31"
+    },
+    {
+        "id": "5afc552e-fcf6-471d-b7c7-9d519fcde189",
+        "staff_name": "David Lee",
+        "email": "david.lee@org.io",
+        "role": "Engineer",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2024-02-08",
+        "last_login": "2023-12-24 04:11"
+    },
+    {
+        "id": "d04fa9ab-49b7-44b7-beac-679c44866209",
+        "staff_name": "Michael Johnson",
+        "email": "michael.johnson@staffmail.com",
+        "role": "Analyst",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2023-04-21",
+        "last_login": "2023-07-18 05:17"
+    },
+    {
+        "id": "6ba5b158-617a-45a8-87ec-85f57c0b4623",
+        "staff_name": "Grace Taylor",
+        "email": "grace.taylor@staffmail.com",
+        "role": "Engineer",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-04-11",
+        "last_login": "2025-07-15 00:58"
+    },
+    {
+        "id": "f5c9d1bd-a8d5-4f4c-84a4-cacba7b6849e",
+        "staff_name": "John Wilson",
+        "email": "john.wilson@company.com",
+        "role": "Engineer",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2018-05-07",
+        "last_login": "2023-06-06 14:02"
+    },
+    {
+        "id": "07818b34-0a32-4cae-b9ef-84510ef817bc",
+        "staff_name": "David Johnson",
+        "email": "david.johnson@staffmail.com",
+        "role": "Designer",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2024-07-06",
+        "last_login": "2023-01-11 10:28"
+    },
+    {
+        "id": "d8f75c41-403b-4e57-a081-a85811ba2127",
+        "staff_name": "Grace Brown",
+        "email": "grace.brown@staffmail.com",
+        "role": "Manager",
+        "department": "Design",
+        "status": "Inactive",
+        "date_joined": "2018-11-28",
+        "last_login": "2024-02-20 07:30"
+    },
+    {
+        "id": "bfabb995-a428-40a9-a9eb-c6a61f69782c",
+        "staff_name": "David Brown",
+        "email": "david.brown@company.com",
+        "role": "Engineer",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2020-07-07",
+        "last_login": "2025-11-01 18:58"
+    },
+    {
+        "id": "0b8ef0de-c025-492c-8cc2-5fd4139d2fcf",
+        "staff_name": "Alice Taylor",
+        "email": "alice.taylor@staffmail.com",
+        "role": "Manager",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2018-09-20",
+        "last_login": "2024-07-02 17:40"
+    },
+    {
+        "id": "ab5b5e9f-699c-41b9-af34-dbfee718cec2",
+        "staff_name": "John Smith",
+        "email": "john.smith@org.io",
+        "role": "Admin",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2023-09-28",
+        "last_login": "2025-08-12 21:30"
+    },
+    {
+        "id": "f80db992-f5b3-46fc-bba1-bbaf62b5f299",
+        "staff_name": "Olivia Brown",
+        "email": "olivia.brown@company.com",
+        "role": "Admin",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2019-11-20",
+        "last_login": "2025-04-03 01:13"
+    },
+    {
+        "id": "7fcab4cd-5cdd-436a-81d9-cddc25f4867c",
+        "staff_name": "John Smith",
+        "email": "john.smith@org.io",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2018-04-23",
+        "last_login": "2023-12-25 04:53"
+    },
+    {
+        "id": "b2aa56b7-9120-44ae-bb43-46dc9aaeb38e",
+        "staff_name": "Daniel Johnson",
+        "email": "daniel.johnson@staffmail.com",
+        "role": "Designer",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2022-04-26",
+        "last_login": "2025-08-28 07:28"
+    },
+    {
+        "id": "5d2de122-49c9-45a8-910e-4b7c2ea8315e",
+        "staff_name": "Alice Lewis",
+        "email": "alice.lewis@staffmail.com",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2018-01-09",
+        "last_login": "2023-11-15 00:38"
+    },
+    {
+        "id": "b3d6b238-c3d4-4d89-b4fe-93197a2a626f",
+        "staff_name": "Michael Lee",
+        "email": "michael.lee@company.com",
+        "role": "Analyst",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2022-10-16",
+        "last_login": "2024-11-21 00:14"
+    },
+    {
+        "id": "d2418c6c-c309-4815-8d77-3de10f23b99d",
+        "staff_name": "Michael Anderson",
+        "email": "michael.anderson@company.com",
+        "role": "Engineer",
+        "department": "Operations",
+        "status": "Inactive",
+        "date_joined": "2019-10-23",
+        "last_login": "2025-02-07 20:09"
+    },
+    {
+        "id": "c9257878-ece6-4c9a-b8ba-a3c513b2b10d",
+        "staff_name": "Daniel Lewis",
+        "email": "daniel.lewis@company.com",
+        "role": "Admin",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2019-08-24",
+        "last_login": "2025-01-27 23:09"
+    },
+    {
+        "id": "67b2d3a1-c89e-4278-b93a-252a770e4d32",
+        "staff_name": "Emma Clark",
+        "email": "emma.clark@org.io",
+        "role": "HR",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2019-02-08",
+        "last_login": "2024-06-12 16:06"
+    },
+    {
+        "id": "c46dca92-3a30-432d-876b-24798ae0f7e8",
+        "staff_name": "Daniel Wilson",
+        "email": "daniel.wilson@company.com",
+        "role": "HR",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2021-05-25",
+        "last_login": "2025-06-24 03:41"
+    },
+    {
+        "id": "18fadc6a-b0d7-4fea-9373-d434ebb4c60e",
+        "staff_name": "Grace Johnson",
+        "email": "grace.johnson@staffmail.com",
+        "role": "Analyst",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2024-06-24",
+        "last_login": "2024-12-25 04:32"
+    },
+    {
+        "id": "0ce65fcf-5b3a-46ff-b21c-cc7f1af2baef",
+        "staff_name": "Grace Lewis",
+        "email": "grace.lewis@org.io",
+        "role": "Admin",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2022-10-18",
+        "last_login": "2024-06-04 16:42"
+    },
+    {
+        "id": "fd0becc6-4cd2-4f66-9629-fa755f9bfcbe",
+        "staff_name": "Emma Taylor",
+        "email": "emma.taylor@staffmail.com",
+        "role": "Designer",
+        "department": "HR",
+        "status": "Inactive",
+        "date_joined": "2018-01-10",
+        "last_login": "2024-02-28 11:39"
+    },
+    {
+        "id": "b0e3b0e5-5d4e-4dce-b7d2-b10b68b51b46",
+        "staff_name": "Michael Taylor",
+        "email": "michael.taylor@org.io",
+        "role": "Manager",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2020-10-17",
+        "last_login": "2024-08-03 15:29"
+    },
+    {
+        "id": "6049b6b7-6a30-4bb2-96d8-a32ccbfc3365",
+        "staff_name": "Bob Anderson",
+        "email": "bob.anderson@company.com",
+        "role": "Analyst",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-09-09",
+        "last_login": "2023-12-28 03:08"
+    },
+    {
+        "id": "274a9109-3b0e-44bb-b20d-c3fa49a6e860",
+        "staff_name": "Michael Johnson",
+        "email": "michael.johnson@org.io",
+        "role": "Analyst",
+        "department": "Sales",
+        "status": "Inactive",
+        "date_joined": "2019-07-21",
+        "last_login": "2025-08-20 11:20"
+    },
+    {
+        "id": "c65662d9-51dc-452e-8468-9888c8d2a743",
+        "staff_name": "Daniel Anderson",
+        "email": "daniel.anderson@company.com",
+        "role": "Admin",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2019-07-25",
+        "last_login": "2023-03-08 09:06"
+    },
+    {
+        "id": "5249736c-8402-4114-9b6b-541fb2498f2e",
+        "staff_name": "Michael Johnson",
+        "email": "michael.johnson@org.io",
+        "role": "Engineer",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-10-02",
+        "last_login": "2025-09-26 22:27"
+    },
+    {
+        "id": "9c3c3e48-e5fc-405f-b415-2251e453bd07",
+        "staff_name": "John Smith",
+        "email": "john.smith@company.com",
+        "role": "Admin",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2019-06-27",
+        "last_login": "2023-01-16 09:26"
+    },
+    {
+        "id": "d14528ec-0e83-4ac8-9435-c7619a536900",
+        "staff_name": "Grace Anderson",
+        "email": "grace.anderson@company.com",
+        "role": "HR",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2021-05-04",
+        "last_login": "2025-07-08 19:33"
+    },
+    {
+        "id": "3ccd78dc-b17d-4c21-82d7-fbb26281cbd5",
+        "staff_name": "Emma Johnson",
+        "email": "emma.johnson@company.com",
+        "role": "Admin",
+        "department": "HR",
+        "status": "Inactive",
+        "date_joined": "2020-03-13",
+        "last_login": "2023-02-13 21:36"
+    },
+    {
+        "id": "b14e6196-3289-4194-95fc-7ab587d8d50a",
+        "staff_name": "Sarah Lewis",
+        "email": "sarah.lewis@staffmail.com",
+        "role": "HR",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2018-12-18",
+        "last_login": "2024-02-26 22:22"
+    },
+    {
+        "id": "6c86997f-24a6-41b4-996f-e5c9c20256e6",
+        "staff_name": "Alice Lee",
+        "email": "alice.lee@org.io",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2019-07-12",
+        "last_login": "2025-11-05 12:10"
+    },
+    {
+        "id": "01febaa0-fcc0-4f7b-bffd-18f3f76346e5",
+        "staff_name": "Alice Brown",
+        "email": "alice.brown@staffmail.com",
+        "role": "Designer",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2022-07-26",
+        "last_login": "2023-12-05 18:35"
+    },
+    {
+        "id": "3374470f-fc50-4ab1-997c-5fae5de3b4a6",
+        "staff_name": "Grace Lee",
+        "email": "grace.lee@company.com",
+        "role": "HR",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2019-10-10",
+        "last_login": "2023-05-02 13:39"
+    },
+    {
+        "id": "f6124cbe-5b72-4404-93d9-10c252f9e363",
+        "staff_name": "Sarah Wilson",
+        "email": "sarah.wilson@staffmail.com",
+        "role": "Analyst",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2018-08-23",
+        "last_login": "2025-07-11 16:06"
+    },
+    {
+        "id": "70d55a63-1ee8-49d9-b119-53d207ffce1d",
+        "staff_name": "Daniel Clark",
+        "email": "daniel.clark@staffmail.com",
+        "role": "Designer",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2023-05-18",
+        "last_login": "2024-05-21 05:25"
+    },
+    {
+        "id": "e6f6c17a-6f9b-4189-94d4-c9bd83670dcb",
+        "staff_name": "John Clark",
+        "email": "john.clark@staffmail.com",
+        "role": "Analyst",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2018-02-24",
+        "last_login": "2024-07-15 07:24"
+    },
+    {
+        "id": "026d505e-3792-42d5-9746-e1603d1c33d3",
+        "staff_name": "Michael Smith",
+        "email": "michael.smith@staffmail.com",
+        "role": "Analyst",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2020-10-19",
+        "last_login": "2023-09-25 17:50"
+    },
+    {
+        "id": "88fc4c99-06d0-4b8f-b3da-3dec92c6610a",
+        "staff_name": "Bob Anderson",
+        "email": "bob.anderson@org.io",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Inactive",
+        "date_joined": "2018-04-03",
+        "last_login": "2024-01-21 05:28"
+    },
+    {
+        "id": "58d9f7ab-f707-4681-bba1-f587ad76048c",
+        "staff_name": "Bob Brown",
+        "email": "bob.brown@staffmail.com",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2024-11-28",
+        "last_login": "2024-03-16 17:29"
+    },
+    {
+        "id": "40cc07d9-46ba-483c-af65-f471192c8b4d",
+        "staff_name": "John Anderson",
+        "email": "john.anderson@staffmail.com",
+        "role": "Analyst",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2018-01-25",
+        "last_login": "2025-01-20 02:15"
+    },
+    {
+        "id": "889b043c-6314-42d9-a59c-1bdb01c86006",
+        "staff_name": "Bob Anderson",
+        "email": "bob.anderson@staffmail.com",
+        "role": "Analyst",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2022-09-05",
+        "last_login": "2025-07-13 03:44"
+    },
+    {
+        "id": "00bc6e42-4d9c-4ff5-bd54-0c5f73068d87",
+        "staff_name": "Emma Taylor",
+        "email": "emma.taylor@staffmail.com",
+        "role": "Designer",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2020-07-01",
+        "last_login": "2023-04-02 02:43"
+    },
+    {
+        "id": "6422ea07-cabb-45fb-9936-856f3f52eb13",
+        "staff_name": "Bob Lee",
+        "email": "bob.lee@staffmail.com",
+        "role": "Manager",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2020-01-25",
+        "last_login": "2025-04-02 03:39"
+    },
+    {
+        "id": "d2c7bab4-4912-4c8b-bafd-7fc42c21ae4d",
+        "staff_name": "Alice Martin",
+        "email": "alice.martin@staffmail.com",
+        "role": "Manager",
+        "department": "Design",
+        "status": "Inactive",
+        "date_joined": "2024-09-07",
+        "last_login": "2023-01-22 03:04"
+    },
+    {
+        "id": "063d1fd1-b0de-42b8-a300-ae1284a7f485",
+        "staff_name": "Emma Martin",
+        "email": "emma.martin@company.com",
+        "role": "Manager",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2018-06-09",
+        "last_login": "2024-08-24 14:45"
+    },
+    {
+        "id": "c374cb7f-86a9-4a02-95e2-f7d1e768f5bd",
+        "staff_name": "Olivia Clark",
+        "email": "olivia.clark@org.io",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2018-03-04",
+        "last_login": "2023-01-28 09:39"
+    },
+    {
+        "id": "9d9e23c7-d64f-41ab-acbf-e8fd26f9b73a",
+        "staff_name": "Olivia Taylor",
+        "email": "olivia.taylor@staffmail.com",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-06-16",
+        "last_login": "2025-01-05 04:34"
+    },
+    {
+        "id": "e8ee9a76-d772-4df0-ba30-2664766d8184",
+        "staff_name": "Emma Brown",
+        "email": "emma.brown@company.com",
+        "role": "Analyst",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2022-06-06",
+        "last_login": "2025-03-17 19:23"
+    },
+    {
+        "id": "0484f89f-8698-451b-bdf9-83bae6a00bfd",
+        "staff_name": "Grace Martin",
+        "email": "grace.martin@staffmail.com",
+        "role": "Engineer",
+        "department": "Sales",
+        "status": "Inactive",
+        "date_joined": "2018-08-25",
+        "last_login": "2023-10-25 20:32"
+    },
+    {
+        "id": "58f4e354-f16d-49fa-88eb-1af52fc2934c",
+        "staff_name": "Michael Lee",
+        "email": "michael.lee@staffmail.com",
+        "role": "Manager",
+        "department": "HR",
+        "status": "Inactive",
+        "date_joined": "2020-08-10",
+        "last_login": "2023-02-15 09:35"
+    },
+    {
+        "id": "0568d4fd-9c2d-479b-951c-59f6da07fdfd",
+        "staff_name": "John Brown",
+        "email": "john.brown@org.io",
+        "role": "Analyst",
+        "department": "Sales",
+        "status": "Inactive",
+        "date_joined": "2019-02-20",
+        "last_login": "2024-05-25 03:20"
+    },
+    {
+        "id": "8822a1fb-8d82-4272-8e1c-8c71ecfa627f",
+        "staff_name": "John Brown",
+        "email": "john.brown@org.io",
+        "role": "Engineer",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2018-09-25",
+        "last_login": "2023-05-28 19:04"
+    },
+    {
+        "id": "61088d28-9fed-44e5-9a85-dabd1dcdb293",
+        "staff_name": "Bob Smith",
+        "email": "bob.smith@company.com",
+        "role": "Analyst",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2019-10-24",
+        "last_login": "2023-07-27 02:03"
+    },
+    {
+        "id": "7c675cc1-a51c-4daf-9994-a01b92ca6739",
+        "staff_name": "Emma Lewis",
+        "email": "emma.lewis@staffmail.com",
+        "role": "Analyst",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2021-11-04",
+        "last_login": "2023-06-04 01:43"
+    },
+    {
+        "id": "72bd2cdd-b945-430b-aafb-346a5ba59fea",
+        "staff_name": "Daniel Clark",
+        "email": "daniel.clark@org.io",
+        "role": "HR",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2022-02-03",
+        "last_login": "2025-03-11 05:07"
+    },
+    {
+        "id": "bc008322-eb0e-4662-a52a-d6df35911085",
+        "staff_name": "David Taylor",
+        "email": "david.taylor@company.com",
+        "role": "Engineer",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2022-02-05",
+        "last_login": "2025-07-18 16:24"
+    },
+    {
+        "id": "c41d85f2-2a1f-4e9b-a412-c6254ee2e5b3",
+        "staff_name": "John Johnson",
+        "email": "john.johnson@company.com",
+        "role": "Admin",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2023-03-13",
+        "last_login": "2025-02-05 05:21"
+    },
+    {
+        "id": "4539ba6d-d683-4e9a-be38-0affbbd7567b",
+        "staff_name": "Emma Brown",
+        "email": "emma.brown@org.io",
+        "role": "HR",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2023-11-13",
+        "last_login": "2023-02-15 19:58"
+    },
+    {
+        "id": "436219ad-d92a-4a46-9e4b-322f65f7e107",
+        "staff_name": "Emma Lee",
+        "email": "emma.lee@staffmail.com",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2021-03-15",
+        "last_login": "2023-09-08 17:19"
+    },
+    {
+        "id": "ff00f57a-6e0e-44f9-a43a-7ad6b6725937",
+        "staff_name": "David Martin",
+        "email": "david.martin@staffmail.com",
+        "role": "Manager",
+        "department": "Operations",
+        "status": "Inactive",
+        "date_joined": "2019-05-26",
+        "last_login": "2024-04-05 21:06"
+    },
+    {
+        "id": "f2f3b1d0-66f8-42aa-8570-77beaebf01c7",
+        "staff_name": "Michael Wilson",
+        "email": "michael.wilson@staffmail.com",
+        "role": "Designer",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2023-12-20",
+        "last_login": "2025-03-25 02:06"
+    },
+    {
+        "id": "6fc35d6a-5e16-4c6e-b216-a97409edafb0",
+        "staff_name": "Grace Clark",
+        "email": "grace.clark@company.com",
+        "role": "Designer",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2023-07-22",
+        "last_login": "2024-09-23 11:49"
+    },
+    {
+        "id": "0ccee808-9eaf-4945-a379-527719bc237e",
+        "staff_name": "John Lee",
+        "email": "john.lee@company.com",
+        "role": "Admin",
+        "department": "Operations",
+        "status": "Inactive",
+        "date_joined": "2021-08-03",
+        "last_login": "2025-12-13 11:57"
+    },
+    {
+        "id": "4f472a8f-3504-4371-b121-dad0cd92e3a5",
+        "staff_name": "Michael Johnson",
+        "email": "michael.johnson@org.io",
+        "role": "HR",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2022-11-03",
+        "last_login": "2023-03-14 02:26"
+    },
+    {
+        "id": "d0ca6c11-e087-45be-b0da-cb35aa3e78ef",
+        "staff_name": "Daniel Clark",
+        "email": "daniel.clark@company.com",
+        "role": "Engineer",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2024-11-08",
+        "last_login": "2024-01-07 06:14"
+    },
+    {
+        "id": "65ab4fdb-8913-4871-ab09-54db4f140d35",
+        "staff_name": "Michael Wilson",
+        "email": "michael.wilson@company.com",
+        "role": "Manager",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2021-11-16",
+        "last_login": "2024-02-11 19:07"
+    },
+    {
+        "id": "f8b798c8-6960-4e50-a845-d5ec58ea85d1",
+        "staff_name": "Bob Wilson",
+        "email": "bob.wilson@org.io",
+        "role": "Designer",
+        "department": "Engineering",
+        "status": "Inactive",
+        "date_joined": "2018-05-20",
+        "last_login": "2023-02-27 22:52"
+    },
+    {
+        "id": "c0588316-6c6c-46a2-b88c-f36d0a714088",
+        "staff_name": "John Anderson",
+        "email": "john.anderson@company.com",
+        "role": "Designer",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2019-03-12",
+        "last_login": "2024-03-17 06:39"
+    },
+    {
+        "id": "0d780046-2088-4f46-a7c0-11592da6a923",
+        "staff_name": "Sarah Anderson",
+        "email": "sarah.anderson@org.io",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-10-27",
+        "last_login": "2023-03-26 08:48"
+    },
+    {
+        "id": "91d2102b-314f-4b61-81ec-bc85147bb0ad",
+        "staff_name": "Michael Smith",
+        "email": "michael.smith@company.com",
+        "role": "Analyst",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2024-01-25",
+        "last_login": "2025-10-24 14:06"
+    },
+    {
+        "id": "e46d21f5-bac1-45af-875b-eaf5e798ef51",
+        "staff_name": "John Lewis",
+        "email": "john.lewis@org.io",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Inactive",
+        "date_joined": "2018-04-26",
+        "last_login": "2025-04-20 19:32"
+    },
+    {
+        "id": "432723b7-f54c-43d2-b080-a78c9b6b0760",
+        "staff_name": "Alice Anderson",
+        "email": "alice.anderson@company.com",
+        "role": "Engineer",
+        "department": "Engineering",
+        "status": "Inactive",
+        "date_joined": "2021-06-27",
+        "last_login": "2024-05-27 05:35"
+    },
+    {
+        "id": "f9407d46-bd37-4973-8488-14103e9cdb0c",
+        "staff_name": "Emma Taylor",
+        "email": "emma.taylor@staffmail.com",
+        "role": "Admin",
+        "department": "Operations",
+        "status": "Inactive",
+        "date_joined": "2020-07-01",
+        "last_login": "2025-02-03 16:09"
+    },
+    {
+        "id": "2deae3d1-7777-4d43-8b71-edcabc3fa235",
+        "staff_name": "Bob Smith",
+        "email": "bob.smith@org.io",
+        "role": "Engineer",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2021-03-12",
+        "last_login": "2023-10-28 14:47"
+    },
+    {
+        "id": "88075864-b01d-4a3b-a080-ad591e79b294",
+        "staff_name": "Sarah Smith",
+        "email": "sarah.smith@org.io",
+        "role": "Admin",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2022-12-22",
+        "last_login": "2024-10-26 22:39"
+    },
+    {
+        "id": "1877faab-6f2d-4025-a013-388a2c1a2e55",
+        "staff_name": "John Taylor",
+        "email": "john.taylor@org.io",
+        "role": "Analyst",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2024-08-23",
+        "last_login": "2024-03-01 19:15"
+    },
+    {
+        "id": "4bddb83d-6c6d-4444-afee-8cf7ee25074a",
+        "staff_name": "Sarah Lewis",
+        "email": "sarah.lewis@company.com",
+        "role": "Admin",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2021-02-20",
+        "last_login": "2025-03-14 21:33"
+    },
+    {
+        "id": "3c4446a2-75e6-41f1-a7b8-fe7f72a34f83",
+        "staff_name": "Michael Smith",
+        "email": "michael.smith@staffmail.com",
+        "role": "Analyst",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2021-03-20",
+        "last_login": "2024-03-12 15:22"
+    },
+    {
+        "id": "3abc580a-a333-435a-ad83-25d251f004eb",
+        "staff_name": "Daniel Wilson",
+        "email": "daniel.wilson@company.com",
+        "role": "Engineer",
+        "department": "Design",
+        "status": "Inactive",
+        "date_joined": "2023-05-09",
+        "last_login": "2023-01-03 13:04"
+    },
+    {
+        "id": "5db72d77-abf5-4082-9a65-a9c4808f2cc9",
+        "staff_name": "Sarah Taylor",
+        "email": "sarah.taylor@company.com",
+        "role": "Designer",
+        "department": "Finance",
+        "status": "Inactive",
+        "date_joined": "2018-01-25",
+        "last_login": "2025-02-20 11:28"
+    },
+    {
+        "id": "5adf55b9-5bcb-4eae-91ec-751e2de29a27",
+        "staff_name": "Michael Johnson",
+        "email": "michael.johnson@company.com",
+        "role": "Analyst",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2022-12-22",
+        "last_login": "2025-07-01 00:11"
+    },
+    {
+        "id": "b3431b7b-a20f-4f9d-b1cf-a9fd1d57a273",
+        "staff_name": "Sarah Anderson",
+        "email": "sarah.anderson@org.io",
+        "role": "Analyst",
+        "department": "Finance",
+        "status": "Active",
+        "date_joined": "2021-12-22",
+        "last_login": "2024-08-09 22:04"
+    },
+    {
+        "id": "06792699-ae43-4136-9113-07eb801b8cb4",
+        "staff_name": "Grace Clark",
+        "email": "grace.clark@org.io",
+        "role": "Admin",
+        "department": "Sales",
+        "status": "Inactive",
+        "date_joined": "2018-11-17",
+        "last_login": "2023-11-10 14:28"
+    },
+    {
+        "id": "dcc7bb34-3f26-4017-805e-ef639379ab01",
+        "staff_name": "Olivia Brown",
+        "email": "olivia.brown@org.io",
+        "role": "Manager",
+        "department": "HR",
+        "status": "Active",
+        "date_joined": "2024-09-06",
+        "last_login": "2025-03-06 09:06"
+    },
+    {
+        "id": "78ead787-73f8-4545-a657-d53ca140dd84",
+        "staff_name": "David Brown",
+        "email": "david.brown@company.com",
+        "role": "HR",
+        "department": "Engineering",
+        "status": "Inactive",
+        "date_joined": "2019-02-04",
+        "last_login": "2024-11-13 17:59"
+    },
+    {
+        "id": "9b3e1646-3be4-406e-aa6c-3ba9fcd17044",
+        "staff_name": "David Lee",
+        "email": "david.lee@staffmail.com",
+        "role": "Designer",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-04-09",
+        "last_login": "2023-05-08 03:50"
+    },
+    {
+        "id": "94e17a84-1101-4e45-8f4d-113bb5516138",
+        "staff_name": "Alice Clark",
+        "email": "alice.clark@staffmail.com",
+        "role": "HR",
+        "department": "Operations",
+        "status": "Active",
+        "date_joined": "2018-01-28",
+        "last_login": "2023-02-22 20:37"
+    },
+    {
+        "id": "8354ce49-1933-4411-ad52-d20759ab7d62",
+        "staff_name": "John Smith",
+        "email": "john.smith@company.com",
+        "role": "Manager",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2018-12-24",
+        "last_login": "2023-03-06 09:40"
+    },
+    {
+        "id": "309756d3-bacc-475d-a06e-e36a7931d018",
+        "staff_name": "Grace Smith",
+        "email": "grace.smith@org.io",
+        "role": "Designer",
+        "department": "Design",
+        "status": "Active",
+        "date_joined": "2018-08-13",
+        "last_login": "2025-12-22 10:18"
+    },
+    {
+        "id": "0196c61f-c081-416f-bff5-05cb0cd835b4",
+        "staff_name": "Bob Anderson",
+        "email": "bob.anderson@company.com",
+        "role": "Designer",
+        "department": "Engineering",
+        "status": "Active",
+        "date_joined": "2021-07-19",
+        "last_login": "2023-09-01 23:29"
+    },
+    {
+        "id": "b05aaff4-2ace-4c0e-b419-f8608a1cdbf9",
+        "staff_name": "Daniel Brown",
+        "email": "daniel.brown@staffmail.com",
+        "role": "HR",
+        "department": "Sales",
+        "status": "Active",
+        "date_joined": "2023-10-26",
+        "last_login": "2025-11-02 13:23"
+    }
+]

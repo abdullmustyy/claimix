@@ -1,0 +1,1002 @@
+[
+    {
+        "id": "78bdd0f7-6f8c-4ba5-a851-f0b2ee209b39",
+        "date_time": "2023-09-27 08:46",
+        "claim_id": "CLM-00215",
+        "user": "David Taylor",
+        "role": "Auditor",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "e936716c-1e85-4ed0-919c-a24a1d01e945",
+        "date_time": "2023-09-28 14:48",
+        "claim_id": "CLM-00332",
+        "user": "John Smith",
+        "role": "Claims Officer",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "d06ec455-1843-46af-9084-ac66fd4e12a2",
+        "date_time": "2024-10-10 04:08",
+        "claim_id": "CLM-00147",
+        "user": "Michael Anderson",
+        "role": "Admin",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "0d00e2dc-4c86-4f96-a28d-94f34480494b",
+        "date_time": "2025-09-11 23:55",
+        "claim_id": "CLM-00075",
+        "user": "Michael Johnson",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "86524599-a6c6-4697-b137-7a063faa3531",
+        "date_time": "2024-12-16 01:54",
+        "claim_id": "CLM-00141",
+        "user": "Emma Johnson",
+        "role": "Auditor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "03d7a622-9813-4808-a2bc-87ba70227e5d",
+        "date_time": "2025-02-04 05:39",
+        "claim_id": "CLM-00251",
+        "user": "Grace Anderson",
+        "role": "Admin",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "a2e4a3a8-d87c-40c2-9849-ef893c0111c7",
+        "date_time": "2023-02-20 12:50",
+        "claim_id": "CLM-00221",
+        "user": "Bob Anderson",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "1ad7ddf6-41d4-4704-a918-53fce4614daa",
+        "date_time": "2025-04-03 20:46",
+        "claim_id": "CLM-00196",
+        "user": "Daniel Lee",
+        "role": "Auditor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "9f5d9e45-9e1f-4d17-8ae8-c5133b7a5de0",
+        "date_time": "2023-06-23 07:39",
+        "claim_id": "CLM-00051",
+        "user": "Emma Lee",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "0527cde4-22c1-4eef-8b36-7232de405771",
+        "date_time": "2023-04-16 23:33",
+        "claim_id": "CLM-00077",
+        "user": "David Martin",
+        "role": "Admin",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "1aabf18a-ff84-4ba2-935a-ad595bbab53e",
+        "date_time": "2024-01-03 00:01",
+        "claim_id": "CLM-00268",
+        "user": "Grace Martin",
+        "role": "Auditor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "14325773-668b-42ec-adfe-20a0436a6c7e",
+        "date_time": "2025-02-05 00:36",
+        "claim_id": "CLM-00470",
+        "user": "Daniel Wilson",
+        "role": "Admin",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "a9c542e0-bd03-4ed9-a47e-1d1f430b0b6d",
+        "date_time": "2024-09-08 17:51",
+        "claim_id": "CLM-00200",
+        "user": "David Anderson",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "c3e3fa53-f042-4661-a96d-8519ae451825",
+        "date_time": "2024-11-28 19:49",
+        "claim_id": "CLM-00298",
+        "user": "Emma Lee",
+        "role": "Auditor",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "b4ff3977-73ce-4e68-827a-8c556a63cfdc",
+        "date_time": "2023-06-22 04:34",
+        "claim_id": "CLM-00191",
+        "user": "Emma Anderson",
+        "role": "Supervisor",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "53d8da13-cf2d-41f4-bf05-aa76183ccf93",
+        "date_time": "2024-08-11 15:02",
+        "claim_id": "CLM-00114",
+        "user": "Bob Smith",
+        "role": "Admin",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "8e979caf-bef3-49a5-bf42-257c9408ea1d",
+        "date_time": "2025-06-17 10:05",
+        "claim_id": "CLM-00269",
+        "user": "Alice Taylor",
+        "role": "Auditor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "e3932ae6-f732-4f95-89c9-b837774ea4c0",
+        "date_time": "2023-12-22 09:42",
+        "claim_id": "CLM-00023",
+        "user": "Olivia Martin",
+        "role": "Claims Officer",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "82dea3e2-49fc-42cd-9377-13b1b849d7f1",
+        "date_time": "2025-06-18 13:44",
+        "claim_id": "CLM-00476",
+        "user": "Olivia Lewis",
+        "role": "Auditor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "43ab3f13-a646-41e0-b334-1b1d5a8bdc3a",
+        "date_time": "2025-12-27 08:21",
+        "claim_id": "CLM-00367",
+        "user": "Michael Taylor",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "8007e22d-6118-473c-a3ef-3cec8060efcd",
+        "date_time": "2025-12-04 11:05",
+        "claim_id": "CLM-00068",
+        "user": "Emma Taylor",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "2496830a-0573-4f44-bc7d-b9f93ff0d74c",
+        "date_time": "2023-03-27 23:39",
+        "claim_id": "CLM-00488",
+        "user": "Sarah Anderson",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "a5810a28-54d9-4176-8f83-a294c8efe6d9",
+        "date_time": "2025-09-09 04:27",
+        "claim_id": "CLM-00452",
+        "user": "Sarah Lee",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "39d23c2b-8b0d-4778-bc2b-f4ace2b4c1db",
+        "date_time": "2024-09-02 03:45",
+        "claim_id": "CLM-00405",
+        "user": "John Lewis",
+        "role": "Claims Officer",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "f328e177-3169-44b0-8fd1-55a49200be8e",
+        "date_time": "2023-11-10 16:37",
+        "claim_id": "CLM-00004",
+        "user": "Olivia Smith",
+        "role": "Auditor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "5f0ecd1a-cf8b-4e5a-ae96-4a282bc871d9",
+        "date_time": "2023-09-24 18:42",
+        "claim_id": "CLM-00442",
+        "user": "Grace Taylor",
+        "role": "Admin",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "f7eeafc4-5bee-4a93-a656-905ebff4facf",
+        "date_time": "2024-07-28 15:13",
+        "claim_id": "CLM-00237",
+        "user": "David Johnson",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "455fd71d-fe2a-4597-9e24-51d8c60377d4",
+        "date_time": "2023-04-13 09:58",
+        "claim_id": "CLM-00235",
+        "user": "Grace Clark",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "c5bf6d7e-37fd-4821-a608-8c626977adaa",
+        "date_time": "2024-09-15 06:30",
+        "claim_id": "CLM-00283",
+        "user": "Emma Wilson",
+        "role": "Admin",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "8003b301-53c0-4b0e-8eaf-8c849d2e73ba",
+        "date_time": "2024-04-24 18:12",
+        "claim_id": "CLM-00499",
+        "user": "Grace Lee",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "e8b3393a-5330-4b18-a532-2ab7170d803c",
+        "date_time": "2025-08-26 16:32",
+        "claim_id": "CLM-00125",
+        "user": "Emma Lee",
+        "role": "Supervisor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "3e3169c9-c1ba-4942-89b3-4746517913c0",
+        "date_time": "2024-03-25 04:21",
+        "claim_id": "CLM-00285",
+        "user": "Alice Taylor",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "a43e99e5-91d0-4c27-9576-5d6d134fd337",
+        "date_time": "2023-04-05 01:13",
+        "claim_id": "CLM-00276",
+        "user": "Alice Johnson",
+        "role": "Claims Officer",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "05250e64-58a8-4a48-bf47-77328e1f8909",
+        "date_time": "2025-04-14 06:23",
+        "claim_id": "CLM-00476",
+        "user": "Bob Lee",
+        "role": "Supervisor",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "824f9431-e0bd-46b0-aa91-7a791ed0f3f1",
+        "date_time": "2023-10-16 14:23",
+        "claim_id": "CLM-00403",
+        "user": "Daniel Anderson",
+        "role": "Supervisor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "9cb5da97-17be-4d83-9bd6-1a6de3a74aa6",
+        "date_time": "2023-03-05 10:33",
+        "claim_id": "CLM-00285",
+        "user": "Bob Johnson",
+        "role": "Claims Officer",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "a3050010-d4af-4ada-ab74-75c627a34d34",
+        "date_time": "2024-07-04 10:22",
+        "claim_id": "CLM-00142",
+        "user": "Olivia Clark",
+        "role": "Supervisor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "a4bfa698-f9e9-4f1b-b322-626f6562b98b",
+        "date_time": "2025-06-28 08:07",
+        "claim_id": "CLM-00305",
+        "user": "Grace Johnson",
+        "role": "Admin",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "50d343e2-0689-41c8-915b-e689051d2d92",
+        "date_time": "2024-12-10 21:48",
+        "claim_id": "CLM-00425",
+        "user": "Michael Wilson",
+        "role": "Supervisor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "d5aff03c-256d-4179-9372-df995cddea3b",
+        "date_time": "2025-03-24 08:48",
+        "claim_id": "CLM-00471",
+        "user": "Sarah Lee",
+        "role": "Claims Officer",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "8d209d91-f3c5-43d9-b921-f3070cd43821",
+        "date_time": "2025-07-28 16:57",
+        "claim_id": "CLM-00027",
+        "user": "Grace Anderson",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "91eab716-c55e-4c21-8fc1-09ec1cc839ca",
+        "date_time": "2025-08-09 20:00",
+        "claim_id": "CLM-00300",
+        "user": "Michael Johnson",
+        "role": "Supervisor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "ed2312ce-6ce8-4408-8a94-531a5b5cda60",
+        "date_time": "2023-12-02 13:24",
+        "claim_id": "CLM-00034",
+        "user": "Daniel Wilson",
+        "role": "Admin",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "7f5100f8-1099-4c66-a2eb-e3f3bb2da542",
+        "date_time": "2025-05-22 17:44",
+        "claim_id": "CLM-00171",
+        "user": "Michael Wilson",
+        "role": "Auditor",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "a0988220-6cd1-4c49-ac3d-bba4cf815c18",
+        "date_time": "2025-01-19 03:43",
+        "claim_id": "CLM-00439",
+        "user": "David Wilson",
+        "role": "Claims Officer",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "ceba82b0-b876-42b9-9154-854d4634cf64",
+        "date_time": "2024-12-23 15:25",
+        "claim_id": "CLM-00459",
+        "user": "Sarah Taylor",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "0b80a505-42cb-4b8a-9ea9-7d6ef5f0fc17",
+        "date_time": "2023-11-25 14:50",
+        "claim_id": "CLM-00307",
+        "user": "Michael Taylor",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "f2849aad-6eef-41ad-86c7-05851eef6f89",
+        "date_time": "2023-02-13 17:55",
+        "claim_id": "CLM-00193",
+        "user": "Emma Smith",
+        "role": "Admin",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "f368d513-a682-46da-aea2-fb47fc63fdf9",
+        "date_time": "2025-08-10 21:52",
+        "claim_id": "CLM-00045",
+        "user": "Olivia Lee",
+        "role": "Claims Officer",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "87289535-7763-4eaa-90d3-05774fd38916",
+        "date_time": "2023-09-06 04:44",
+        "claim_id": "CLM-00138",
+        "user": "Alice Anderson",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "9b3b0b20-5b35-46a5-9330-4faf7723a71f",
+        "date_time": "2025-09-24 03:29",
+        "claim_id": "CLM-00053",
+        "user": "Bob Brown",
+        "role": "Admin",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "7d8bfb24-1ad5-4316-9f08-f11d22583142",
+        "date_time": "2025-01-28 15:12",
+        "claim_id": "CLM-00368",
+        "user": "Grace Taylor",
+        "role": "Admin",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "9f27143b-ab8a-4d6f-bdad-47ae09d69e2b",
+        "date_time": "2025-08-14 07:05",
+        "claim_id": "CLM-00310",
+        "user": "Michael Clark",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "4a2041c1-4e03-4671-9406-0bdc161b4030",
+        "date_time": "2024-01-05 02:01",
+        "claim_id": "CLM-00097",
+        "user": "Sarah Anderson",
+        "role": "Auditor",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "95b6d20d-41e3-42f5-9f31-ffc6f70b0027",
+        "date_time": "2024-10-28 18:03",
+        "claim_id": "CLM-00022",
+        "user": "Sarah Lee",
+        "role": "Auditor",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "81a1bdd5-9d84-4c74-a3d9-d6d7370dbcae",
+        "date_time": "2023-05-02 08:09",
+        "claim_id": "CLM-00405",
+        "user": "John Smith",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "f00dd7a7-fff5-4736-b644-0011ab1e4826",
+        "date_time": "2023-03-12 07:46",
+        "claim_id": "CLM-00420",
+        "user": "David Lee",
+        "role": "Supervisor",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "b3532455-ba10-47c5-8705-8723e4bf5fbd",
+        "date_time": "2024-06-02 09:33",
+        "claim_id": "CLM-00423",
+        "user": "Bob Clark",
+        "role": "Admin",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "9ad42076-4b81-428e-babb-f745ae5d6f2d",
+        "date_time": "2024-09-21 07:49",
+        "claim_id": "CLM-00280",
+        "user": "Grace Smith",
+        "role": "Auditor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "44015737-c738-4874-b423-f40dab0250c6",
+        "date_time": "2024-02-17 23:08",
+        "claim_id": "CLM-00380",
+        "user": "Alice Clark",
+        "role": "Supervisor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "99654abe-eace-46dd-ac68-1ee38aab636e",
+        "date_time": "2023-02-01 00:46",
+        "claim_id": "CLM-00318",
+        "user": "Alice Johnson",
+        "role": "Admin",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "e48f530c-db0b-4528-a4c8-8195d9b6a3f7",
+        "date_time": "2025-01-22 03:33",
+        "claim_id": "CLM-00196",
+        "user": "Sarah Clark",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "360f23e5-9544-4068-9ff5-2a4a999e442f",
+        "date_time": "2023-06-22 16:04",
+        "claim_id": "CLM-00128",
+        "user": "Olivia Wilson",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "e3a16cdf-39f9-48b9-a0fc-15098f7fcbb7",
+        "date_time": "2023-05-04 14:08",
+        "claim_id": "CLM-00074",
+        "user": "John Brown",
+        "role": "Auditor",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "aef3b335-b23f-477e-871d-cbdaf7e2de81",
+        "date_time": "2023-08-21 14:03",
+        "claim_id": "CLM-00032",
+        "user": "Michael Johnson",
+        "role": "Auditor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "3bf03c4a-3bc0-48ff-9ce2-a6bdd6d7f6cd",
+        "date_time": "2023-01-24 15:12",
+        "claim_id": "CLM-00468",
+        "user": "Emma Johnson",
+        "role": "Admin",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "418f9fa9-1944-4781-a7fb-98e6a7c94873",
+        "date_time": "2024-03-17 00:28",
+        "claim_id": "CLM-00407",
+        "user": "Alice Smith",
+        "role": "Supervisor",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "01ac1ca9-db36-4b70-bf13-6bf60a8368aa",
+        "date_time": "2025-09-15 16:15",
+        "claim_id": "CLM-00176",
+        "user": "David Johnson",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "445c76c1-eef7-4262-8200-9bd25df66d31",
+        "date_time": "2025-07-08 10:22",
+        "claim_id": "CLM-00444",
+        "user": "Daniel Brown",
+        "role": "Admin",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "d73eefe6-7710-435f-b792-69f564f89689",
+        "date_time": "2025-05-13 10:39",
+        "claim_id": "CLM-00110",
+        "user": "Bob Wilson",
+        "role": "Auditor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "2a198308-a769-4356-b96d-33b347637261",
+        "date_time": "2024-10-09 19:49",
+        "claim_id": "CLM-00289",
+        "user": "John Lee",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "7b6bfa7b-af91-45ba-8e0c-cc105f86d381",
+        "date_time": "2025-04-23 19:55",
+        "claim_id": "CLM-00061",
+        "user": "John Smith",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "1f9347dd-6c1e-4a79-8df0-0000e7a2d8c2",
+        "date_time": "2025-06-08 05:33",
+        "claim_id": "CLM-00392",
+        "user": "Sarah Wilson",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "89645102-d62a-42d9-b93d-fe87c6d3bb97",
+        "date_time": "2025-12-16 05:44",
+        "claim_id": "CLM-00234",
+        "user": "Grace Brown",
+        "role": "Supervisor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "21bb08db-be62-4fbe-930c-4c5a3c77fa37",
+        "date_time": "2024-11-02 01:12",
+        "claim_id": "CLM-00484",
+        "user": "Bob Smith",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "afb85920-158b-46df-8f06-f728cf1b6e00",
+        "date_time": "2023-07-16 18:44",
+        "claim_id": "CLM-00267",
+        "user": "Bob Anderson",
+        "role": "Supervisor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "2bb410ff-4757-4bfd-971e-20f098467d5f",
+        "date_time": "2025-02-06 01:44",
+        "claim_id": "CLM-00483",
+        "user": "Emma Martin",
+        "role": "Admin",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "d6eddf83-759a-4b1f-96e0-faf93ffd6593",
+        "date_time": "2025-08-21 08:08",
+        "claim_id": "CLM-00215",
+        "user": "Grace Martin",
+        "role": "Supervisor",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "190cafe6-73b7-4871-b303-b53baa883d1e",
+        "date_time": "2025-06-23 03:39",
+        "claim_id": "CLM-00390",
+        "user": "Grace Clark",
+        "role": "Admin",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Success"
+    },
+    {
+        "id": "b6c2a883-96e5-450f-aa4a-20ded8cf573f",
+        "date_time": "2024-07-16 19:29",
+        "claim_id": "CLM-00266",
+        "user": "Alice Lee",
+        "role": "Supervisor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "bf52fa90-0e06-40b5-976d-635ad5ef4cca",
+        "date_time": "2024-07-11 05:23",
+        "claim_id": "CLM-00349",
+        "user": "David Wilson",
+        "role": "Claims Officer",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "abdb201b-7dc0-4045-974d-e13c156ee3f1",
+        "date_time": "2023-11-12 02:55",
+        "claim_id": "CLM-00349",
+        "user": "Bob Wilson",
+        "role": "Auditor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "521829d2-00fc-49ec-80b0-d60350bf11de",
+        "date_time": "2024-11-20 13:45",
+        "claim_id": "CLM-00209",
+        "user": "John Brown",
+        "role": "Supervisor",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "9c8a90c7-c7b3-420c-960e-db07d99f811a",
+        "date_time": "2024-02-22 07:15",
+        "claim_id": "CLM-00492",
+        "user": "Sarah Martin",
+        "role": "Claims Officer",
+        "action": "Deleted claim",
+        "description": "Claim record was permanently removed.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "2e04802c-0c00-4ac4-bf81-b76f2eea5b47",
+        "date_time": "2024-11-07 20:49",
+        "claim_id": "CLM-00321",
+        "user": "John Wilson",
+        "role": "Admin",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "713b1eb4-d228-4830-8dd1-88e074997d3f",
+        "date_time": "2025-02-03 19:15",
+        "claim_id": "CLM-00384",
+        "user": "Emma Martin",
+        "role": "Claims Officer",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "9903000e-7e9f-4c7e-b1da-db13de29d41e",
+        "date_time": "2023-05-21 21:32",
+        "claim_id": "CLM-00379",
+        "user": "Emma Brown",
+        "role": "Claims Officer",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "74fa24ff-4f9f-4b54-af8a-ab5678c53cbf",
+        "date_time": "2025-06-04 11:00",
+        "claim_id": "CLM-00292",
+        "user": "John Wilson",
+        "role": "Auditor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "29fbf916-97d8-41b4-ad61-854cf53effaf",
+        "date_time": "2023-05-05 11:35",
+        "claim_id": "CLM-00401",
+        "user": "Daniel Brown",
+        "role": "Supervisor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Success"
+    },
+    {
+        "id": "d1dc9d91-1e1d-4809-9cb8-32f07e4e74dd",
+        "date_time": "2025-10-11 19:18",
+        "claim_id": "CLM-00154",
+        "user": "Emma Clark",
+        "role": "Claims Officer",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "7934dd53-c7d6-492a-b70d-064a7d92f3bb",
+        "date_time": "2024-11-23 17:25",
+        "claim_id": "CLM-00234",
+        "user": "Olivia Wilson",
+        "role": "Auditor",
+        "action": "Rejected claim",
+        "description": "Claim was rejected due to incomplete information.",
+        "status": "Success"
+    },
+    {
+        "id": "0d59dc07-f94d-44fa-957b-513c6afd3171",
+        "date_time": "2025-10-24 07:45",
+        "claim_id": "CLM-00078",
+        "user": "David Lee",
+        "role": "Claims Officer",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "2fb3885e-e580-478c-95c9-90550f8d6f29",
+        "date_time": "2025-10-28 11:53",
+        "claim_id": "CLM-00400",
+        "user": "Emma Lee",
+        "role": "Admin",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "9b6f2fd1-2ba0-4180-8fac-e590ce33b06c",
+        "date_time": "2023-07-04 04:30",
+        "claim_id": "CLM-00214",
+        "user": "David Lewis",
+        "role": "Supervisor",
+        "action": "Viewed claim",
+        "description": "Claim was viewed for audit.",
+        "status": "Success"
+    },
+    {
+        "id": "47250564-fc09-439e-bf4c-8cc0357e3cd0",
+        "date_time": "2024-07-18 08:03",
+        "claim_id": "CLM-00338",
+        "user": "Alice Wilson",
+        "role": "Admin",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "e9b42c90-a897-4780-9f0b-ddddcd816fcb",
+        "date_time": "2023-08-18 19:28",
+        "claim_id": "CLM-00129",
+        "user": "Sarah Anderson",
+        "role": "Admin",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "0b61ce8e-a630-4265-8c33-106212c74ed4",
+        "date_time": "2025-12-15 22:21",
+        "claim_id": "CLM-00323",
+        "user": "Daniel Smith",
+        "role": "Auditor",
+        "action": "Approved claim",
+        "description": "Claim was approved by a supervisor.",
+        "status": "Unsuccessful"
+    },
+    {
+        "id": "734c8a62-467d-4d99-80e5-cb8bcac1ab35",
+        "date_time": "2025-06-25 17:54",
+        "claim_id": "CLM-00246",
+        "user": "Olivia Anderson",
+        "role": "Admin",
+        "action": "Submitted claim",
+        "description": "A new claim was submitted.",
+        "status": "Success"
+    },
+    {
+        "id": "0c67e3f7-65d1-489e-a390-f7c1c00a85f8",
+        "date_time": "2024-06-17 21:32",
+        "claim_id": "CLM-00323",
+        "user": "Sarah Martin",
+        "role": "Auditor",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    },
+    {
+        "id": "c1abee5c-2541-40da-a888-f0e715aac88b",
+        "date_time": "2025-06-19 17:50",
+        "claim_id": "CLM-00063",
+        "user": "David Johnson",
+        "role": "Claims Officer",
+        "action": "Updated claim",
+        "description": "Claim details were updated.",
+        "status": "Success"
+    }
+]

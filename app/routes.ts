@@ -8,9 +8,11 @@ import {
 
 export default [
     ...prefix("user", [
-        layout("routes/user/UserLayout.tsx", [
-            route("dashboard", "routes/user/Dashboard.tsx"),
-            route("policy-holders", "routes/user/PolicyHolders.tsx"),
+        layout("routes/user/user-layout.tsx", [
+            route("dashboard", "routes/user/dashboard.tsx"),
+            route("policy-holders", "routes/user/policy-holders.tsx"),
+            route("staff-management", "routes/user/staff-management.tsx"),
+            route("audit-logs", "routes/user/audit-logs.tsx"),
         ]),
     ]),
 ] satisfies RouteConfig;

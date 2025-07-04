@@ -1,12 +1,18 @@
 import { Bell, Search } from "lucide-react";
 import { useState } from "react";
+import { cn } from "~/lib/utils";
 import { Separator } from "./ui/separator";
 
-const AppHeader = () => {
+const AppHeader = ({ className }: React.ComponentProps<"header">) => {
     const [searchTerm, setSearchTerm] = useState("");
 
     return (
-        <header className="group-has-data-[collapsible=icon]/sidebar-wrapper:h-15 flex h-15 shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear">
+        <header
+            className={cn(
+                "group-has-data-[collapsible=icon]/sidebar-wrapper:h-15 flex h-15 shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear",
+                className,
+            )}
+        >
             <div className="flex w-full items-center justify-between px-4 lg:px-6">
                 {/* <SidebarTrigger className="-ml-1" /> */}
                 <div className="relative">

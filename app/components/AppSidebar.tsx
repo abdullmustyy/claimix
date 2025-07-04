@@ -1,12 +1,12 @@
 import { ArrowUpCircleIcon } from "lucide-react";
 import { Link, NavLink } from "react-router";
 import { cn } from "~/lib/utils";
-import AnalyticsIcon from "./icons/AnalyticsIcon";
-import AuditLogsIcon from "./icons/AuditLogsIcon";
-import DashboardIcon from "./icons/DashboardIcon";
-import PolicyHoldersIcon from "./icons/PolicyHoldersIcon";
-import SettingsIcon from "./icons/SettingsIcon";
-import StaffManagementIcon from "./icons/StaffManagementIcon";
+import AnalyticsIcon from "./icons/analytics-icon";
+import AuditLogsIcon from "./icons/audit-logs-icon";
+import DashboardIcon from "./icons/dashboard-icon";
+import PolicyHoldersIcon from "./icons/policy-holders-icon";
+import SettingsIcon from "./icons/settings-icon";
+import StaffManagementIcon from "./icons/staff-management-icon";
 import {
     Sidebar,
     SidebarContent,
