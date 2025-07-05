@@ -29,13 +29,13 @@ const AuditLogsTable = () => {
         };
     }, []);
 
-    const { table, shallow, debounceMs, throttleMs } = useDataTable({
+    const { table } = useDataTable({
         data: auditLogsData || [],
         columns: auditLogsColumns,
         // pageCount: 10,
-        getRowId: (originalRow) => originalRow.id,
-        shallow: false,
-        clearOnDefault: true,
+        // getRowId: (originalRow) => originalRow.id,
+        // shallow: false,
+        // clearOnDefault: true,
     });
 
     if (loading)

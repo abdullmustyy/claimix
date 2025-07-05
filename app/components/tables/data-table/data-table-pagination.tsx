@@ -1,19 +1,5 @@
 import type { Table } from "@tanstack/react-table";
-import {
-    ChevronLeft,
-    ChevronRight,
-    ChevronsLeft,
-    ChevronsRight,
-} from "lucide-react";
-
 import { Button } from "~/components/ui/button";
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "~/components/ui/select";
 import { cn } from "~/lib/utils";
 
 interface DataTablePaginationProps<TData> extends React.ComponentProps<"div"> {
@@ -48,7 +34,7 @@ export function DataTablePagination<TData>({
             <div className="flex items-center gap-3">
                 <Button
                     aria-label="Go to previous page"
-                    variant="outline"
+                    variant="ghost"
                     size="sm"
                     className="text-iron-gray disabled:text-cool-gray"
                     onClick={() => table.previousPage()}
@@ -65,7 +51,7 @@ export function DataTablePagination<TData>({
 
                 <Button
                     aria-label="Go to next page"
-                    variant="outline"
+                    variant="ghost"
                     size="sm"
                     className="text-iron-gray disabled:text-cool-gray"
                     onClick={() => table.nextPage()}

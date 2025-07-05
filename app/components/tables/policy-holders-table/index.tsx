@@ -1,8 +1,8 @@
 import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
-import { useDataTable } from "~/hooks/use-data-table";
 import { DataTable } from "../data-table";
 import { policyHoldersColumns, type IPolicyHolder } from "./columns";
+import { useDataTable } from "~/hooks/use-data-table";
 
 const PolicyHoldersTable = () => {
     const [policyHoldersData, setPolicyHoldersData] = useState<
@@ -32,13 +32,13 @@ const PolicyHoldersTable = () => {
         };
     }, []);
 
-    const { table, shallow, debounceMs, throttleMs } = useDataTable({
+    const { table } = useDataTable({
         data: policyHoldersData || [],
         columns: policyHoldersColumns,
         // pageCount: 10,
-        getRowId: (originalRow) => originalRow.id,
-        shallow: false,
-        clearOnDefault: true,
+        // getRowId: (originalRow) => originalRow.id,
+        // shallow: false,
+        // clearOnDefault: true,
     });
 
     if (loading)
