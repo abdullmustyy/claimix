@@ -125,15 +125,15 @@ export const policyHoldersColumns: ColumnDef<IPolicyHolder>[] = [
     },
     {
         id: "actions",
-        header: () => <span className="text-primary-base">Action</span>,
+        header: () => <span>Action</span>,
         enableHiding: false,
-        cell: (row) => {
+        cell: () => {
             return (
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button
                             variant="ghost"
-                            className="bg-transparent hover:bg-transparent text-primary-base size-fit p-0 has-[>svg]:px-0 focus-visible:border-none focus-visible:ring-0"
+                            className="size-8 p-0 has-[>svg]:px-0 focus-visible:border-none focus-visible:ring-0"
                         >
                             <span className="sr-only">Open menu</span>
                             <MoreHorizontal className="size-5" />
@@ -144,17 +144,13 @@ export const policyHoldersColumns: ColumnDef<IPolicyHolder>[] = [
                         alignOffset={-10}
                         className="p-0 border-bright-gray"
                     >
-                        <DropdownMenuItem className="px-4 py-2 cursor-pointer">
-                            <EyeOff />
-                            <span className="text-primary-base text-sm">
-                                View User
-                            </span>
+                        <DropdownMenuItem className="group px-4 py-2 cursor-pointer text-iron-gray focus:text-black">
+                            <EyeOff className="text-iron-gray group-focus:text-black" />
+                            <span className="text-sm">View User</span>
                         </DropdownMenuItem>
-                        <DropdownMenuItem className="px-4 py-2 cursor-pointer">
-                            <CircleOffIcon />
-                            <span className="text-primary-base text-sm">
-                                Blacklist User
-                            </span>
+                        <DropdownMenuItem className="group px-4 py-2 cursor-pointer text-iron-gray focus:text-black">
+                            <CircleOffIcon className="text-iron-gray group-focus:text-black" />
+                            <span className="text-sm">Blacklist User</span>
                         </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>

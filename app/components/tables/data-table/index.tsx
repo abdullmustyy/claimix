@@ -52,7 +52,7 @@ export function DataTable<TData>({
                                                 column: header.column,
                                             }),
                                         }}
-                                        className="px-3 py-2"
+                                        className="p-3"
                                     >
                                         {header.isPlaceholder
                                             ? null
