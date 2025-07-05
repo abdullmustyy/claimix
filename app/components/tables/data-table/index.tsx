@@ -113,10 +113,11 @@ export function DataTable<TData>({
             </ScrollArea>
 
             {table.getFilteredSelectedRowModel().rows.length > 0 && (
-                <div className="fixed bottom-1/10 left-1/2 w-fit bg-white rounded-(--card-radius) p-(--card-padding) z-10 [--card-radius:calc(var(--radius)-2px)] [--card-padding:--spacing(1)]">
+                <div className="fixed bottom-1/10 left-1/2 w-fit bg-white rounded-(--card-radius) p-(--card-padding) z-10 shadow-[0_0_0_1px_#00000014] [--card-radius:calc(var(--radius)-2px)] [--card-padding:--spacing(1)]">
                     <Button
                         variant="ghost"
-                        className="rounded-[calc(var(--card-radius)-var(--card-padding))]"
+                        className="rounded-[calc(var(--card-radius)-var(--card-padding))] has-[>svg]:px-8"
+                        onClick={() => table.toggleAllRowsSelected(false)}
                     >
                         <Trash2 className="text-cherry-red" />
                         {table.getFilteredSelectedRowModel().rows.length === 1
