@@ -1,4 +1,4 @@
-import StaffManagementTable from "~/components/tables/staf-management-table";
+import StaffManagementTable from "~/components/tables/staff-management-table";
 
 const StaffManagement = () => {
     return (

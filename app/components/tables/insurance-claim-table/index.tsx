@@ -1,13 +1,13 @@
-import { LoaderCircle, Trash2 } from "lucide-react";
+import { Flag, LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { useDataTable } from "~/hooks/use-data-table";
 import { DataTable } from "../data-table";
-import { policyHoldersColumns, type IPolicyHolder } from "./columns";
+import { insuranceClaimColumns, type IInsuranceClaim } from "./columns";
 
-const PolicyHoldersTable = () => {
-    const [policyHoldersData, setPolicyHoldersData] = useState<
-        IPolicyHolder[] | null
+const InsuranceClaimTable = () => {
+    const [insuranceClaimData, setInsuranceClaimData] = useState<
+        IInsuranceClaim[] | null
     >(null);
     const [loading, setLoading] = useState(true);
 
@@ -15,13 +15,14 @@ const PolicyHoldersTable = () => {
         let isMounted = true;
         import("./data.json").then((mod) => {
             if (isMounted) {
-                setPolicyHoldersData(
+                setInsuranceClaimData(
                     mod.default.map((item: any) => ({
                         ...item,
                         status: item.status as
-                            | "Blacklisted"
-                            | "Active"
-                            | "Lapsed",
+                            | "Pending"
+                            | "Under Review"
+                            | "Approved"
+                            | "Flagged",
                     })),
                 );
                 setLoading(false);
@@ -34,8 +35,8 @@ const PolicyHoldersTable = () => {
     }, []);
 
     const { table } = useDataTable({
-        data: policyHoldersData || [],
-        columns: policyHoldersColumns,
+        data: insuranceClaimData || [],
+        columns: insuranceClaimColumns,
         // pageCount: 10,
         // getRowId: (originalRow) => originalRow.id,
         // shallow: false,
@@ -53,10 +54,10 @@ const PolicyHoldersTable = () => {
                         className="rounded-[calc(var(--card-radius)-var(--card-padding))] has-[>svg]:px-8"
                         onClick={() => table.toggleAllRowsSelected(false)}
                     >
-                        <Trash2 className="text-cherry-red" />
+                        <Flag className="text-cherry-red" />
                         {table.getFilteredSelectedRowModel().rows.length === 1
-                            ? "Blacklist user"
-                            : "Blacklist users"}
+                            ? "Flag user"
+                            : "Flag users"}
                     </Button>
                 </div>
             )}
@@ -64,4 +65,4 @@ const PolicyHoldersTable = () => {
     );
 };
 
-export default PolicyHoldersTable;
+export default InsuranceClaimTable;

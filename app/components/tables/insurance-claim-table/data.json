@@ -1,0 +1,502 @@
+[
+    {
+        "id": "c04c1f1e-9cad-4809-8a88-53744a286b38",
+        "claim_id": "CLM-00001",
+        "claimant_name": "David Lewis",
+        "last_contacted": "10hr 3mins",
+        "date_submitted": "2025-06-28",
+        "status": "Flagged",
+        "tags": "Urgent",
+        "claims_officer": "John Johnson"
+    },
+    {
+        "id": "0724ca63-9d71-480c-8893-628cf9f4d71a",
+        "claim_id": "CLM-00002",
+        "claimant_name": "John Johnson",
+        "last_contacted": "3hr 30mins",
+        "date_submitted": "2025-06-27",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Alice Taylor"
+    },
+    {
+        "id": "77451faa-4f2a-41ad-b792-6518f2e98886",
+        "claim_id": "CLM-00003",
+        "claimant_name": "Alice Taylor",
+        "last_contacted": "11hr 1mins",
+        "date_submitted": "2025-06-25",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Lewis"
+    },
+    {
+        "id": "023cde17-10e1-4faf-bb1d-184a1288c23a",
+        "claim_id": "CLM-00004",
+        "claimant_name": "Emma Lewis",
+        "last_contacted": "2hr 25mins",
+        "date_submitted": "2025-06-24",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Bob Martin"
+    },
+    {
+        "id": "6cf8c19a-7a99-46fd-9888-9b3ff46005ae",
+        "claim_id": "CLM-00005",
+        "claimant_name": "Bob Martin",
+        "last_contacted": "59mins",
+        "date_submitted": "2025-06-23",
+        "status": "Pending",
+        "tags": "Urgent",
+        "claims_officer": "Bob Anderson"
+    },
+    {
+        "id": "c74e0910-52a6-4baa-971c-5bcbb6766095",
+        "claim_id": "CLM-00006",
+        "claimant_name": "Bob Anderson",
+        "last_contacted": "6hr 15mins",
+        "date_submitted": "2025-06-22",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Michael Wilson"
+    },
+    {
+        "id": "dd10422d-e77c-4a7f-8ba1-2219e8c81349",
+        "claim_id": "CLM-00007",
+        "claimant_name": "Michael Wilson",
+        "last_contacted": "10hr 40mins",
+        "date_submitted": "2025-06-21",
+        "status": "Approved",
+        "tags": "Medical",
+        "claims_officer": "Alice Martin"
+    },
+    {
+        "id": "6e1537bb-31ee-4fb9-af0b-0357dcfa3d93",
+        "claim_id": "CLM-00008",
+        "claimant_name": "Bob Martin",
+        "last_contacted": "8hr 14mins",
+        "date_submitted": "2025-06-20",
+        "status": "Pending",
+        "tags": "Urgent",
+        "claims_officer": "Emma Taylor"
+    },
+    {
+        "id": "509ac9e9-dd61-40d4-abb9-9fb4c18df079",
+        "claim_id": "CLM-00009",
+        "claimant_name": "Bob Johnson",
+        "last_contacted": "46mins",
+        "date_submitted": "2025-06-19",
+        "status": "Under Review",
+        "tags": "Auto",
+        "claims_officer": "Alice Clark"
+    },
+    {
+        "id": "eeb321da-05c9-4c6e-897e-934b4048e02f",
+        "claim_id": "CLM-00010",
+        "claimant_name": "Daniel Brown",
+        "last_contacted": "3hr 52mins",
+        "date_submitted": "2025-06-18",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Daniel Smith"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000011",
+        "claim_id": "CLM-00011",
+        "claimant_name": "Emma Taylor",
+        "last_contacted": "3hr 54mins",
+        "date_submitted": "2025-06-17",
+        "status": "Pending",
+        "tags": "Auto",
+        "claims_officer": "Bob Lewis"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000012",
+        "claim_id": "CLM-00012",
+        "claimant_name": "Alice Clark",
+        "last_contacted": "9hr 7mins",
+        "date_submitted": "2025-06-16",
+        "status": "Flagged",
+        "tags": "Property",
+        "claims_officer": "Emma Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000013",
+        "claim_id": "CLM-00013",
+        "claimant_name": "Daniel Smith",
+        "last_contacted": "3hr 16mins",
+        "date_submitted": "2025-06-15",
+        "status": "Under Review",
+        "tags": "Medical",
+        "claims_officer": "Grace Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000014",
+        "claim_id": "CLM-00014",
+        "claimant_name": "Olivia Taylor",
+        "last_contacted": "9hr 56mins",
+        "date_submitted": "2025-06-14",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Alice Smith"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000015",
+        "claim_id": "CLM-00015",
+        "claimant_name": "James Johnson",
+        "last_contacted": "4hr 12mins",
+        "date_submitted": "2025-06-13",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Taylor"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000016",
+        "claim_id": "CLM-00016",
+        "claimant_name": "Patricia Brown",
+        "last_contacted": "7hr 45mins",
+        "date_submitted": "2025-06-12",
+        "status": "Flagged",
+        "tags": "Property",
+        "claims_officer": "Emma Wilson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000017",
+        "claim_id": "CLM-00017",
+        "claimant_name": "Robert Smith",
+        "last_contacted": "2hr 30mins",
+        "date_submitted": "2025-06-11",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Alice Johnson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000018",
+        "claim_id": "CLM-00018",
+        "claimant_name": "Linda Taylor",
+        "last_contacted": "5hr 10mins",
+        "date_submitted": "2025-06-10",
+        "status": "Under Review",
+        "tags": "Medical",
+        "claims_officer": "Bob Anderson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000019",
+        "claim_id": "CLM-00019",
+        "claimant_name": "William Brown",
+        "last_contacted": "8hr 25mins",
+        "date_submitted": "2025-06-09",
+        "status": "Pending",
+        "tags": "Urgent",
+        "claims_officer": "Daniel Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000001a",
+        "claim_id": "CLM-00020",
+        "claimant_name": "Elizabeth Davis",
+        "last_contacted": "9hr 15mins",
+        "date_submitted": "2025-06-08",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Michael Lewis"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000001b",
+        "claim_id": "CLM-00021",
+        "claimant_name": "Charles Miller",
+        "last_contacted": "3hr 45mins",
+        "date_submitted": "2025-06-07",
+        "status": "Approved",
+        "tags": "Medical",
+        "claims_officer": "Emma Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000001c",
+        "claim_id": "CLM-00022",
+        "claimant_name": "Thomas Wilson",
+        "last_contacted": "6hr 30mins",
+        "date_submitted": "2025-06-06",
+        "status": "Pending",
+        "tags": "Property",
+        "claims_officer": "Alice Taylor"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000001d",
+        "claim_id": "CLM-00023",
+        "claimant_name": "Daniel Lee",
+        "last_contacted": "2hr 15mins",
+        "date_submitted": "2025-06-05",
+        "status": "Under Review",
+        "tags": "Auto",
+        "claims_officer": "Bob Martin"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000001e",
+        "claim_id": "CLM-00024",
+        "claimant_name": "Matthew Harris",
+        "last_contacted": "7hr 5mins",
+        "date_submitted": "2025-06-04",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Daniel Smith"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000001f",
+        "claim_id": "CLM-00025",
+        "claimant_name": "Joshua Clark",
+        "last_contacted": "4hr 20mins",
+        "date_submitted": "2025-06-03",
+        "status": "Approved",
+        "tags": "Medical",
+        "claims_officer": "Emma Lewis"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000020",
+        "claim_id": "CLM-00026",
+        "claimant_name": "Andrew Lewis",
+        "last_contacted": "5hr 30mins",
+        "date_submitted": "2025-06-02",
+        "status": "Pending",
+        "tags": "Urgent",
+        "claims_officer": "Bob Johnson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000021",
+        "claim_id": "CLM-00027",
+        "claimant_name": "David Brown",
+        "last_contacted": "3hr 10mins",
+        "date_submitted": "2025-06-01",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Alice Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000022",
+        "claim_id": "CLM-00028",
+        "claimant_name": "James Smith",
+        "last_contacted": "8hr 50mins",
+        "date_submitted": "2025-05-31",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Michael Wilson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000023",
+        "claim_id": "CLM-00029",
+        "claimant_name": "John Taylor",
+        "last_contacted": "6hr 5mins",
+        "date_submitted": "2025-05-30",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Johnson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000024",
+        "claim_id": "CLM-00030",
+        "claimant_name": "Robert Johnson",
+        "last_contacted": "4hr 45mins",
+        "date_submitted": "2025-05-29",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Anderson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000025",
+        "claim_id": "CLM-00031",
+        "claimant_name": "Michael Brown",
+        "last_contacted": "3hr 30mins",
+        "date_submitted": "2025-05-28",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Alice Taylor"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000026",
+        "claim_id": "CLM-00032",
+        "claimant_name": "William Smith",
+        "last_contacted": "7hr 15mins",
+        "date_submitted": "2025-05-27",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Daniel Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000027",
+        "claim_id": "CLM-00033",
+        "claimant_name": "David Taylor",
+        "last_contacted": "5hr 5mins",
+        "date_submitted": "2025-05-26",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Lewis"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000028",
+        "claim_id": "CLM-00034",
+        "claimant_name": "James Wilson",
+        "last_contacted": "3hr 25mins",
+        "date_submitted": "2025-05-25",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Johnson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000029",
+        "claim_id": "CLM-00035",
+        "claimant_name": "John Brown",
+        "last_contacted": "9hr 10mins",
+        "date_submitted": "2025-05-24",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Alice Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000002a",
+        "claim_id": "CLM-00036",
+        "claimant_name": "Robert Smith",
+        "last_contacted": "6hr 40mins",
+        "date_submitted": "2025-05-23",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Michael Wilson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000002b",
+        "claim_id": "CLM-00037",
+        "claimant_name": "David Johnson",
+        "last_contacted": "4hr 15mins",
+        "date_submitted": "2025-05-22",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Taylor"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000002c",
+        "claim_id": "CLM-00038",
+        "claimant_name": "Michael Williams",
+        "last_contacted": "3hr 5mins",
+        "date_submitted": "2025-05-21",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Anderson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000002d",
+        "claim_id": "CLM-00039",
+        "claimant_name": "James Taylor",
+        "last_contacted": "8hr 30mins",
+        "date_submitted": "2025-05-20",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Alice Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000002e",
+        "claim_id": "CLM-00040",
+        "claimant_name": "John Smith",
+        "last_contacted": "7hr 10mins",
+        "date_submitted": "2025-05-19",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Daniel Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-00000000002f",
+        "claim_id": "CLM-00041",
+        "claimant_name": "David Brown",
+        "last_contacted": "5hr 25mins",
+        "date_submitted": "2025-05-18",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Lewis"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000030",
+        "claim_id": "CLM-00042",
+        "claimant_name": "Michael Johnson",
+        "last_contacted": "3hr 50mins",
+        "date_submitted": "2025-05-17",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Johnson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000031",
+        "claim_id": "CLM-00043",
+        "claimant_name": "James Wilson",
+        "last_contacted": "9hr 5mins",
+        "date_submitted": "2025-05-16",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Alice Taylor"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000032",
+        "claim_id": "CLM-00044",
+        "claimant_name": "John Brown",
+        "last_contacted": "6hr 20mins",
+        "date_submitted": "2025-05-15",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Michael Wilson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000033",
+        "claim_id": "CLM-00045",
+        "claimant_name": "David Taylor",
+        "last_contacted": "4hr 10mins",
+        "date_submitted": "2025-05-14",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000034",
+        "claim_id": "CLM-00046",
+        "claimant_name": "Michael Smith",
+        "last_contacted": "3hr 40mins",
+        "date_submitted": "2025-05-13",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Anderson"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000035",
+        "claim_id": "CLM-00047",
+        "claimant_name": "James Brown",
+        "last_contacted": "8hr 15mins",
+        "date_submitted": "2025-05-12",
+        "status": "Under Review",
+        "tags": "Property",
+        "claims_officer": "Alice Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000036",
+        "claim_id": "CLM-00048",
+        "claimant_name": "John Taylor",
+        "last_contacted": "7hr 5mins",
+        "date_submitted": "2025-05-11",
+        "status": "Flagged",
+        "tags": "Fraud",
+        "claims_officer": "Daniel Clark"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000037",
+        "claim_id": "CLM-00049",
+        "claimant_name": "David Wilson",
+        "last_contacted": "5hr 30mins",
+        "date_submitted": "2025-05-10",
+        "status": "Approved",
+        "tags": "Auto",
+        "claims_officer": "Emma Lewis"
+    },
+    {
+        "id": "f1e1e1e1-0000-0000-0000-000000000038",
+        "claim_id": "CLM-00050",
+        "claimant_name": "Michael Taylor",
+        "last_contacted": "3hr 20mins",
+        "date_submitted": "2025-05-09",
+        "status": "Pending",
+        "tags": "Medical",
+        "claims_officer": "Bob Johnson"
+    }
+]

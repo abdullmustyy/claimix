@@ -39,6 +39,7 @@
   --icy-white: #F9FAFC;
   --off-white: #FAFAFA;
   --raven: #18181B;
+  --signal-blue: #007AFF;
   --slate-blue: #565869;
   --cool-gray: #A1A1AA;
   --frost-gray: #D8DCDC;
@@ -64,6 +65,7 @@
   --color-iron-gray: var(--iron-gray);
   --color-silver-gray: var(--silver-gray);
   --color-slate-gray: var(--slate-gray);
+  --color-signal-blue: var(--signal-blue);
   --color-sky-blue: var(--sky-blue);
   --color-teal-green: var(--teal-green);
   --color-cherry-red: var(--cherry-red);

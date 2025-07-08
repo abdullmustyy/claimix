@@ -112,21 +112,6 @@ export function DataTable<TData>({
                 <ScrollBar orientation="horizontal" className="hidden" />
             </ScrollArea>
 
-            {table.getFilteredSelectedRowModel().rows.length > 0 && (
-                <div className="fixed bottom-1/10 left-1/2 w-fit bg-white rounded-(--card-radius) p-(--card-padding) z-10 shadow-[0_0_0_1px_#00000014] [--card-radius:calc(var(--radius)-2px)] [--card-padding:--spacing(1)]">
-                    <Button
-                        variant="ghost"
-                        className="rounded-[calc(var(--card-radius)-var(--card-padding))] has-[>svg]:px-8"
-                        onClick={() => table.toggleAllRowsSelected(false)}
-                    >
-                        <Trash2 className="text-cherry-red" />
-                        {table.getFilteredSelectedRowModel().rows.length === 1
-                            ? "Blacklist user"
-                            : "Blacklist users"}
-                    </Button>
-                </div>
-            )}
-
             <div className="flex flex-col gap-2.5 px-4 pb-8 mt-4">
                 <DataTablePagination table={table} />
                 {actionBar &&
