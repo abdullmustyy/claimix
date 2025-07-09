@@ -8,6 +8,7 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
+import { useAppDialog } from "~/hooks/store/use-app-dialog";
 import { DataTableColumnHeader } from "../data-table/data-table-column-header";
 import DataTableStatusIndicator from "../data-table/data-table-status-indicator";
 
@@ -98,6 +99,11 @@ export const insuranceClaimColumns: ColumnDef<IInsuranceClaim>[] = [
         header: ({ column }) => (
             <DataTableColumnHeader column={column} title="Tags" />
         ),
+        cell: ({ row }) => (
+            <div className="py-0.5 px-2 rounded-full bg-ghost-gray border border-frost-silver w-fit">
+                {row.getValue("tags")}
+            </div>
+        ),
         enableSorting: false,
         enableHiding: false,
     },
@@ -114,6 +120,8 @@ export const insuranceClaimColumns: ColumnDef<IInsuranceClaim>[] = [
         header: () => <span>Action</span>,
         enableHiding: false,
         cell: () => {
+            const { onOpen } = useAppDialog();
+
             return (
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
@@ -134,7 +142,10 @@ export const insuranceClaimColumns: ColumnDef<IInsuranceClaim>[] = [
                             <EyeOff className="text-iron-gray group-focus:text-black" />
                             <span className="text-sm">Quick view</span>
                         </DropdownMenuItem>
-                        <DropdownMenuItem className="group px-4 py-2 cursor-pointer text-iron-gray focus:text-black">
+                        <DropdownMenuItem
+                            className="group px-4 py-2 cursor-pointer text-iron-gray focus:text-black"
+                            onSelect={() => onOpen("flag-claim")}
+                        >
                             <Flag className="text-iron-gray group-focus:text-black" />
                             <span className="text-sm">Flag for review</span>
                         </DropdownMenuItem>

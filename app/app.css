@@ -43,12 +43,15 @@
   --slate-blue: #565869;
   --cool-gray: #A1A1AA;
   --frost-gray: #D8DCDC;
+  --frost-silver: #E4E4E7;
+  --ghost-gray: #F4F4F5;
   --iron-gray: #52525B;
   --silver-gray: #D4D5D7;
   --slate-gray: #71717A;
   --sky-blue: #3B82F6;
   --teal-green: #10B981;
   --cherry-red: #E11D48;
+  --rose-red: #F43F5E;
   --amber: #FF9500;
 }
 
@@ -62,6 +65,8 @@
   --color-slate-blue: var(--slate-blue);
   --color-cool-gray: var(--cool-gray);
   --color-frost-gray: var(--frost-gray);
+  --color-frost-silver: var(--frost-silver);
+  --color-ghost-gray: var(--ghost-gray);
   --color-iron-gray: var(--iron-gray);
   --color-silver-gray: var(--silver-gray);
   --color-slate-gray: var(--slate-gray);
@@ -69,6 +74,7 @@
   --color-sky-blue: var(--sky-blue);
   --color-teal-green: var(--teal-green);
   --color-cherry-red: var(--cherry-red);
+  --color-rose-red: var(--rose-red);
   --color-amber: var(--amber);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
