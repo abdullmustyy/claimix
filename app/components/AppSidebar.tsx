@@ -1,4 +1,5 @@
 import { ArrowUpCircleIcon } from "lucide-react";
+import { useCallback } from "react";
 import { Link, NavLink } from "react-router";
 import { cn } from "~/lib/utils";
 import AnalyticsIcon from "./icons/analytics-icon";
@@ -16,6 +17,7 @@ import {
     SidebarMenu,
     SidebarMenuButton,
     SidebarMenuItem,
+    useSidebar,
 } from "./ui/sidebar";
 
 const userNavs = [
@@ -52,13 +54,19 @@ const userNavs = [
 ];
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+    const { openMobile, toggleSidebar } = useSidebar();
+
+    const handleNavClick = useCallback(() => {
+        if (openMobile) toggleSidebar();
+    }, [openMobile, toggleSidebar]);
+
     return (
         <Sidebar
             {...props}
             className="p-0 [&_[data-slot='sidebar-inner']]:bg-off-white border-r"
         >
             <SidebarHeader className="p-4 justify-center h-15 border-b border-frost-gray border-dashed">
-                <Link to="">
+                <Link to="" onClick={handleNavClick}>
                     <img src="/logo.png" alt="Claimix Logo" />
                 </Link>
             </SidebarHeader>
@@ -76,6 +84,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                                                 isActive,
                                         })
                                     }
+                                    onClick={handleNavClick}
                                 >
                                     <SidebarMenuItem>
                                         <SidebarMenuButton
