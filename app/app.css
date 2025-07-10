@@ -37,7 +37,9 @@
   --sidebar-border: #D4D5D7;
   --sidebar-ring: oklch(0.708 0 0);
   --icy-white: #F9FAFC;
+  --ink-black: #0A0D14;
   --off-white: #FAFAFA;
+  --polar-white: #F8FAFB;
   --raven: #18181B;
   --signal-blue: #007AFF;
   --slate-blue: #565869;
@@ -48,6 +50,7 @@
   --iron-gray: #52525B;
   --silver-gray: #D4D5D7;
   --slate-gray: #71717A;
+  --steel-gray: #525866;
   --sky-blue: #3B82F6;
   --teal-green: #10B981;
   --cherry-red: #E11D48;
@@ -60,7 +63,9 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   --color-icy-white: var(--icy-white);
+  --color-ink-black: var(--ink-black);
   --color-off-white: var(--off-white);
+  --color-polar-white: var(--polar-white);
   --color-raven: var(--raven);
   --color-slate-blue: var(--slate-blue);
   --color-cool-gray: var(--cool-gray);
@@ -70,6 +75,7 @@
   --color-iron-gray: var(--iron-gray);
   --color-silver-gray: var(--silver-gray);
   --color-slate-gray: var(--slate-gray);
+  --color-steel-gray: var(--steel-gray);
   --color-signal-blue: var(--signal-blue);
   --color-sky-blue: var(--sky-blue);
   --color-teal-green: var(--teal-green);

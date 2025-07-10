@@ -1,23 +1,11 @@
-import { Plus } from "lucide-react";
-import { Link } from "react-router";
+import NewClaimForm from "~/components/forms/new-claim-form";
 import InsuranceClaimTable from "~/components/tables/insurance-claim-table";
-import { buttonVariants } from "~/components/ui/button";
-import { cn } from "~/lib/utils";
 
 const Dashboard = () => {
     return (
         <main className="flex flex-col">
             <section className="bg-white h-12 flex items-center justify-end px-4 lg:px-6 border-b">
-                <Link
-                    to=""
-                    className={cn(
-                        buttonVariants({ variant: "default" }),
-                        "h-8",
-                    )}
-                >
-                    Add new claim
-                    <Plus />
-                </Link>
+                <NewClaimForm />
             </section>
 
             <section className="bg-white md:m-3 rounded-xl">

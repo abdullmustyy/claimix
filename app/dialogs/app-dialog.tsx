@@ -27,7 +27,7 @@ const AppDialog = ({ children, className, title, ...props }: IAppDialog) => {
                 <DialogHeader className="px-6 py-4 flex-row items-center justify-between">
                     <DialogTitle className="font-medium">{title}</DialogTitle>
                     <div className="flex items-center gap-2">
-                        <div className="text-xs font-medium grid place-content-center h-5 px-1.5 rounded-sm bg-ghost-gray border border-frost-silver">
+                        <div className="text-xs font-medium hidden md:grid place-content-center h-5 px-1.5 rounded-sm bg-ghost-gray border border-frost-silver">
                             <span>esc</span>
                         </div>
                         <DialogClose asChild>
