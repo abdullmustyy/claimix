@@ -32,7 +32,7 @@ import { useDropzoneStore } from "~/hooks/store/use-dropzone";
 import { cn } from "~/lib/utils";
 import { NewClaimSchema } from "~/schemas/dashboard/user";
 
-export type FormType = z.infer<typeof NewClaimSchema>;
+export type NewClaimFormType = z.infer<typeof NewClaimSchema>;
 
 const claimTypeOptions = [
     { value: "Health Claims", label: "Health Claims" },
@@ -47,11 +47,11 @@ const tagOptions = [
 
 const NewClaimForm = () => {
     const { isDragActive, setIsDragActive } = useDropzoneStore();
-    const form = useForm<FormType>({
+    const form = useForm<NewClaimFormType>({
         resolver: zodResolver(NewClaimSchema),
     });
 
-    const handleSubmit = (data: FormType) => {
+    const handleSubmit = (data: NewClaimFormType) => {
         console.log(data);
     };
 
@@ -97,7 +97,7 @@ const NewClaimForm = () => {
                                         <Input
                                             {...field}
                                             placeholder="Jane Okwuosa"
-                                            className="focus-visible:ring-0"
+                                            className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                         />
                                     )}
                                 />
@@ -111,7 +111,7 @@ const NewClaimForm = () => {
                                             <Input
                                                 {...field}
                                                 placeholder="P128456"
-                                                className="focus-visible:ring-0"
+                                                className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                             />
                                         )}
                                     />
@@ -124,7 +124,7 @@ const NewClaimForm = () => {
                                             <Input
                                                 {...field}
                                                 placeholder="CL12345"
-                                                className="focus-visible:ring-0"
+                                                className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                             />
                                         )}
                                     />
@@ -140,7 +140,7 @@ const NewClaimForm = () => {
                                                 onValueChange={field.onChange}
                                                 defaultValue={field.value}
                                             >
-                                                <SelectTrigger className="w-full">
+                                                <SelectTrigger className="w-full data-[placeholder]:text-[0.8125rem]">
                                                     <SelectValue placeholder="Select claim type" />
                                                 </SelectTrigger>
                                                 <SelectContent>
@@ -169,7 +169,7 @@ const NewClaimForm = () => {
                                             <Input
                                                 {...field}
                                                 placeholder="PH-298374"
-                                                className="focus-visible:ring-0"
+                                                className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                             />
                                         )}
                                     />
@@ -185,7 +185,7 @@ const NewClaimForm = () => {
                                                 onValueChange={field.onChange}
                                                 defaultValue={field.value}
                                             >
-                                                <SelectTrigger className="w-full">
+                                                <SelectTrigger className="w-full data-[placeholder]:text-[0.8125rem]">
                                                     <SelectValue placeholder="None" />
                                                 </SelectTrigger>
                                                 <SelectContent>
@@ -210,7 +210,7 @@ const NewClaimForm = () => {
                                             <Input
                                                 {...field}
                                                 placeholder="9:30 AM"
-                                                className="focus-visible:ring-0"
+                                                className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                             />
                                         )}
                                     />
@@ -224,7 +224,7 @@ const NewClaimForm = () => {
                                         <Input
                                             {...field}
                                             placeholder="2025-06-20"
-                                            className="focus-visible:ring-0"
+                                            className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                         />
                                     )}
                                 />
@@ -237,7 +237,7 @@ const NewClaimForm = () => {
                                         <Input
                                             {...field}
                                             placeholder="Third Mainland Bridge, Lagos, Nigeria"
-                                            className="focus-visible:ring-0"
+                                            className="focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                         />
                                     )}
                                 />
@@ -249,7 +249,7 @@ const NewClaimForm = () => {
                                     render={({ field }) => (
                                         <Textarea
                                             {...field}
-                                            className="h-26.5 focus-visible:ring-0"
+                                            className="h-26.5 focus-visible:ring-0 placeholder:text-[0.8125rem]"
                                             placeholder="Describe the incident..."
                                         />
                                     )}
@@ -297,7 +297,7 @@ const NewClaimForm = () => {
                                                 type="button"
                                                 size="sm"
                                                 variant="outline"
-                                                className="text-[13px] pointer-events-auto"
+                                                className="text-[0.8125rem] pointer-events-auto"
                                             >
                                                 <Upload className="size-3" />
                                                 Upload
@@ -307,7 +307,7 @@ const NewClaimForm = () => {
                                             type="button"
                                             size="sm"
                                             variant="outline"
-                                            className="text-[13px] gap-1 pointer-events-auto"
+                                            className="text-[0.8125rem] gap-1 pointer-events-auto"
                                         >
                                             Import from
                                             <img

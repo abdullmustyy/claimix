@@ -1,7 +1,7 @@
 import type { ColumnDef } from "@tanstack/react-table";
 import { Checkbox } from "~/components/ui/checkbox";
+import StatusIndicator from "../../status-indicator";
 import { DataTableColumnHeader } from "../data-table/data-table-column-header";
-import DataTableStatusIndicator from "../data-table/data-table-status-indicator";
 
 export interface IAuditLog {
     id: string;
@@ -69,7 +69,7 @@ export const auditLogsColumns: ColumnDef<IAuditLog>[] = [
             <DataTableColumnHeader column={column} title="Status" />
         ),
         cell: ({ row }) => {
-            return <DataTableStatusIndicator status={row.getValue("status")} />;
+            return <StatusIndicator status={row.getValue("status")} />;
         },
         enableSorting: false,
         enableHiding: false,

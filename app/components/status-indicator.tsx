@@ -11,7 +11,7 @@ type IStatus =
     | "Under Review"
     | "Approved"
     | "Flagged";
-interface IDataTableStatusIndicatorProps extends React.ComponentProps<"div"> {
+interface IStatusIndicatorProps extends React.ComponentProps<"div"> {
     status: IStatus;
 }
 
@@ -32,17 +32,15 @@ const STATUS_COLOR_MAP: Record<IStatus, string> = {
     "Under Review": "bg-signal-blue",
 };
 
-const DataTableStatusIndicator = ({
-    status,
-}: IDataTableStatusIndicatorProps) => {
+const StatusIndicator = ({ className, status }: IStatusIndicatorProps) => {
     const statusColor = STATUS_COLOR_MAP[status];
-    
+
     return (
-        <div className="flex items-center gap-2">
+        <div className={cn("flex items-center gap-2", className)}>
             <div className={cn("size-2 rounded-xs", statusColor)} />
             <span>{status}</span>
         </div>
     );
 };
 
-export default DataTableStatusIndicator;
+export default StatusIndicator;

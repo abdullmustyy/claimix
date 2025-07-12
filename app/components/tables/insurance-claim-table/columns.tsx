@@ -1,5 +1,6 @@
 import type { ColumnDef } from "@tanstack/react-table";
 import { EyeOff, Flag, MoreHorizontal } from "lucide-react";
+import { useNavigate } from "react-router";
 import { Button } from "~/components/ui/button";
 import { Checkbox } from "~/components/ui/checkbox";
 import {
@@ -9,8 +10,8 @@ import {
     DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
 import { useAppDialog } from "~/hooks/store/use-app-dialog";
+import StatusIndicator from "../../status-indicator";
 import { DataTableColumnHeader } from "../data-table/data-table-column-header";
-import DataTableStatusIndicator from "../data-table/data-table-status-indicator";
 
 export interface IInsuranceClaim {
     id: string;
@@ -89,7 +90,7 @@ export const insuranceClaimColumns: ColumnDef<IInsuranceClaim>[] = [
             <DataTableColumnHeader column={column} title="Status" />
         ),
         cell: ({ row }) => {
-            return <DataTableStatusIndicator status={row.getValue("status")} />;
+            return <StatusIndicator status={row.getValue("status")} />;
         },
         enableSorting: false,
         enableHiding: false,
@@ -119,9 +120,9 @@ export const insuranceClaimColumns: ColumnDef<IInsuranceClaim>[] = [
         id: "actions",
         header: () => <span>Action</span>,
         enableHiding: false,
-        cell: () => {
+        cell: ({ row }) => {
             const { onOpen } = useAppDialog();
-
+            const navigate = useNavigate();
             return (
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
@@ -138,7 +139,14 @@ export const insuranceClaimColumns: ColumnDef<IInsuranceClaim>[] = [
                         alignOffset={-10}
                         className="p-0 border-bright-gray"
                     >
-                        <DropdownMenuItem className="group px-4 py-2 cursor-pointer text-iron-gray focus:text-black">
+                        <DropdownMenuItem
+                            className="group px-4 py-2 cursor-pointer text-iron-gray focus:text-black"
+                            onSelect={() =>
+                                navigate(
+                                    `/user/dashboard/${row.original.claim_id}`,
+                                )
+                            }
+                        >
                             <EyeOff className="text-iron-gray group-focus:text-black" />
                             <span className="text-sm">Quick view</span>
                         </DropdownMenuItem>

@@ -4,7 +4,11 @@ import { useDataTable } from "~/hooks/use-data-table";
 import { DataTable } from "../data-table";
 import { auditLogsColumns, type IAuditLog } from "./columns";
 
-const AuditLogsTable = () => {
+interface AuditLogsTableProps {
+    showPagination?: boolean;
+}
+
+const AuditLogsTable = ({ showPagination = true }: AuditLogsTableProps) => {
     const [auditLogsData, setAuditLogsData] = useState<IAuditLog[] | null>(
         null,
     );
@@ -14,12 +18,17 @@ const AuditLogsTable = () => {
         let isMounted = true;
         import("./data.json").then((mod) => {
             if (isMounted) {
-                setAuditLogsData(
-                    mod.default.map((item: any) => ({
-                        ...item,
-                        // Add any status or type casting if needed for audit logs
-                    })),
-                );
+                let data = mod.default.map((item: any) => ({
+                    ...item,
+                    // Add any status or type casting if needed for audit logs
+                }));
+
+                // Limit to first 3 rows when pagination is disabled
+                if (!showPagination) {
+                    data = data.slice(0, 3);
+                }
+
+                setAuditLogsData(data);
                 setLoading(false);
             }
         });
@@ -27,7 +36,7 @@ const AuditLogsTable = () => {
         return () => {
             isMounted = false;
         };
-    }, []);
+    }, [showPagination]);
 
     const { table } = useDataTable({
         data: auditLogsData || [],
@@ -40,7 +49,7 @@ const AuditLogsTable = () => {
 
     if (loading)
         return <LoaderCircle className="text-raven m-4 animate-spin" />;
-    return <DataTable table={table} />;
+    return <DataTable table={table} showPagination={showPagination} />;
 };
 
 export default AuditLogsTable;

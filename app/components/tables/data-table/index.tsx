@@ -19,11 +19,13 @@ import { cn } from "~/lib/utils";
 interface DataTableProps<TData> extends React.ComponentProps<"div"> {
     table: TanstackTable<TData>;
     actionBar?: React.ReactNode;
+    showPagination?: boolean;
 }
 
 export function DataTable<TData>({
     table,
     actionBar,
+    showPagination = true,
     children,
     className,
     ...props
@@ -55,7 +57,7 @@ export function DataTable<TData>({
                                                 column: header.column,
                                             }),
                                         }}
-                                        className="p-3"
+                                        className="p-3 font-normal"
                                     >
                                         {header.isPlaceholder
                                             ? null
@@ -113,7 +115,7 @@ export function DataTable<TData>({
             </ScrollArea>
 
             <div className="flex flex-col gap-2.5 px-4 pb-8 mt-4">
-                <DataTablePagination table={table} />
+                {showPagination && <DataTablePagination table={table} />}
                 {actionBar &&
                     table.getFilteredSelectedRowModel().rows.length > 0 &&
                     actionBar}

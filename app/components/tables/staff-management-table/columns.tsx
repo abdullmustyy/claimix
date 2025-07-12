@@ -9,8 +9,8 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
+import StatusIndicator from "../../status-indicator";
 import { DataTableColumnHeader } from "../data-table/data-table-column-header";
-import DataTableStatusIndicator from "../data-table/data-table-status-indicator";
 
 export interface IStaffManagement {
     id: string;
@@ -89,7 +89,7 @@ export const staffManagementColumns: ColumnDef<IStaffManagement>[] = [
             <DataTableColumnHeader column={column} title="Status" />
         ),
         cell: ({ row }) => {
-            return <DataTableStatusIndicator status={row.getValue("status")} />;
+            return <StatusIndicator status={row.getValue("status")} />;
         },
         enableSorting: false,
         enableHiding: false,
