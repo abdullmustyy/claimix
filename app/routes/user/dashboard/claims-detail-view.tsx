@@ -414,8 +414,8 @@ export default function ClaimsDetailView() {
                                                     Hey welcome, check our site.
                                                 </span>
                                                 <Link
-                                                    to="https://www.externallink.com"
-                                                    target="_blank"
+                                                    to=""
+                                                    // target="_blank"
                                                 >
                                                     https://www.externallink.com
                                                 </Link>
