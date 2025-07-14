@@ -23,4 +23,5 @@ export const ClaimManagementSchema = z.object({
     claim_notes: z.string().min(1, "Claim Notes is required"),
     next_action: z.string().min(1, "Next Action is required"),
     next_action_details: z.string().min(1, "Next Action Details is required"),
+    follow_up_questions: z.string().min(1, "Follow-up question is required"),
 });

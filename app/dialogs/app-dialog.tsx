@@ -1,4 +1,5 @@
 import { XIcon } from "lucide-react";
+import { Button } from "~/components/ui/button";
 import {
     Dialog,
     DialogClose,
@@ -13,9 +14,18 @@ import { cn } from "~/lib/utils";
 interface IAppDialog extends React.ComponentProps<typeof Dialog> {
     className?: string;
     title: string;
+    note?: React.ReactNode;
+    action?: React.ReactNode;
 }
 
-const AppDialog = ({ children, className, title, ...props }: IAppDialog) => {
+const AppDialog = ({
+    children,
+    className,
+    title,
+    note,
+    action,
+    ...props
+}: IAppDialog) => {
     const { onClose } = useAppDialog();
 
     return (
@@ -38,7 +48,29 @@ const AppDialog = ({ children, className, title, ...props }: IAppDialog) => {
                     </div>
                     <DialogDescription className="sr-only"></DialogDescription>
                 </DialogHeader>
-                {children}
+
+                <div className="p-6 pt-4 border-y">
+                    {note && (
+                        <div className="px-3 py-2.5 bg-off-white rounded-xl flex items-center gap-3 shadow-[0_2px_4px_0_#0000000A,0_1px_2px_-1px_#00000014,0_0_0_1px_#00000014]">
+                            <div
+                                data-slot="note-bar"
+                                className="h-8.5 w-1 rounded-full"
+                            />
+                            {note}
+                        </div>
+                    )}
+
+                    {children}
+                </div>
+
+                <div className="px-6 py-4 flex items-center justify-end gap-2">
+                    <DialogClose asChild>
+                        <Button size="sm" variant="outline">
+                            Cancel
+                        </Button>
+                    </DialogClose>
+                    {action}
+                </div>
             </DialogContent>
         </Dialog>
     );

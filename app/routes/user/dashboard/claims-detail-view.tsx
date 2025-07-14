@@ -1,36 +1,16 @@
-import { zodResolver } from "@hookform/resolvers/zod";
 import { ArrowLeft, CheckCheck } from "lucide-react";
-import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router";
-import { z } from "zod";
-import ControlledFieldWrapper from "~/components/controlled-fields/field-wrapper";
+import ClaimManagementForm from "~/components/forms/claim-management-form";
 import LinkIcon from "~/components/icons/link-icon";
 import SheetIcon from "~/components/icons/sheet-icon";
 import StatusIndicator from "~/components/status-indicator";
 import AuditLogsTable from "~/components/tables/audit-logs-table";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
-import { Form } from "~/components/ui/form";
-import { Input } from "~/components/ui/input";
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "~/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
-import { Textarea } from "~/components/ui/textarea";
-import { ClaimManagementSchema } from "~/schemas/dashboard/user";
-
-export type ClaimManagementFormType = z.infer<typeof ClaimManagementSchema>;
 
 export default function ClaimsDetailView() {
     const navigate = useNavigate();
-
-    const form = useForm<ClaimManagementFormType>({
-        resolver: zodResolver(ClaimManagementSchema),
-    });
 
     return (
         <section className="md:m-3 flex-1 flex flex-col gap-5">
@@ -158,12 +138,12 @@ export default function ClaimsDetailView() {
                                 </span>
                                 <div className="flex items-center gap-2">
                                     <img
-                                        src="/public/images/pngs/car.png"
+                                        src="/images/pngs/car.png"
                                         alt=""
                                         className="w-6.5 h-4.5"
                                     />
                                     <img
-                                        src="/public/images/pngs/car.png"
+                                        src="/images/pngs/car.png"
                                         alt=""
                                         className="w-6.5 h-4.5"
                                     />
@@ -206,80 +186,7 @@ export default function ClaimsDetailView() {
                     </div>
 
                     {/* Claim Management */}
-                    <div className="flex flex-col gap-5 px-5">
-                        <div className="flex items-center justify-between">
-                            <h3 className="text-xl">Claim Management</h3>
-                            <Select>
-                                <SelectTrigger className="pointer-events-none text-[0.8125rem] bg-lime-green text-white h-8 data-[placeholder]:text-white [&_svg:not([class*='text-'])]:text-white [&_svg:not([class*='text-'])]:opacity-100 gap-1 px-2 border-none">
-                                    <SelectValue placeholder="Actions" />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="light">Light</SelectItem>
-                                    <SelectItem value="dark">Dark</SelectItem>
-                                    <SelectItem value="system">
-                                        System
-                                    </SelectItem>
-                                </SelectContent>
-                            </Select>
-                        </div>
-
-                        <Form {...form}>
-                            <form className="grid gap-4">
-                                <ControlledFieldWrapper
-                                    control={form.control}
-                                    name="claim_officer"
-                                    label="Claim Officer"
-                                    className="[&_[data-slot='form-label']]:text-steel-gray [&_[data-slot='form-label']]:font-normal"
-                                    render={({ field }) => (
-                                        <Input
-                                            {...field}
-                                            placeholder="Enter Claim Officer"
-                                            className="focus-visible:ring-0 placeholder:text-[0.8125rem] text-[0.8125rem]"
-                                        />
-                                    )}
-                                />
-                                <ControlledFieldWrapper
-                                    control={form.control}
-                                    name="claim_notes"
-                                    label="Claim Notes"
-                                    className="[&_[data-slot='form-label']]:text-steel-gray [&_[data-slot='form-label']]:font-normal"
-                                    render={({ field }) => (
-                                        <Textarea
-                                            {...field}
-                                            className="h-20 focus-visible:ring-0 placeholder:text-[0.8125rem] text-[0.8125rem]"
-                                            placeholder="Enter Claim Notes"
-                                        />
-                                    )}
-                                />
-                                <ControlledFieldWrapper
-                                    control={form.control}
-                                    name="next_action"
-                                    label="Next Action"
-                                    className="[&_[data-slot='form-label']]:text-steel-gray [&_[data-slot='form-label']]:font-normal"
-                                    render={({ field }) => (
-                                        <Textarea
-                                            {...field}
-                                            className="h-20 focus-visible:ring-0 placeholder:text-[0.8125rem] text-[0.8125rem]"
-                                            placeholder="Enter Next Action"
-                                        />
-                                    )}
-                                />
-                                <ControlledFieldWrapper
-                                    control={form.control}
-                                    name="next_action_details"
-                                    label="Next Action Details"
-                                    className="[&_[data-slot='form-label']]:text-steel-gray [&_[data-slot='form-label']]:font-normal"
-                                    render={({ field }) => (
-                                        <Textarea
-                                            {...field}
-                                            className="h-20 focus-visible:ring-0 placeholder:text-[0.8125rem] text-[0.8125rem]"
-                                            placeholder="Enter Next Action Details"
-                                        />
-                                    )}
-                                />
-                            </form>
-                        </Form>
-                    </div>
+                    <ClaimManagementForm />
                 </div>
             </section>
 

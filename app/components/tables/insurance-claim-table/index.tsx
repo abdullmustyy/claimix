@@ -1,4 +1,3 @@
-import { DialogClose } from "@radix-ui/react-dialog";
 import { Flag, LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
@@ -69,35 +68,28 @@ const InsuranceClaimTable = () => {
                 )}
             </DataTable>
 
-            <AppDialog open={openDialogKey === "flag-claim"} title="Flag Claim">
-                <div className="p-6 pt-4 border-y">
-                    <div className="px-3 py-2.5 bg-off-white rounded-xl flex items-center gap-3 shadow-[0_2px_4px_0_#0000000A,0_1px_2px_-1px_#00000014,0_0_0_1px_#00000014]">
-                        <div className="h-8.5 w-1 bg-rose-red rounded-full" />
-                        <p className="text-sm">
-                            <span className="font-medium">Note: </span>
-                            <span className="text-iron-gray">
-                                You are about to flag a claim for review. Once
-                                flagged it can only be approved by a super
-                                admin.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-
-                <div className="px-6 py-4 flex items-center justify-end gap-2">
-                    <DialogClose asChild>
-                        <Button size="sm" variant="outline">
-                            Cancel
-                        </Button>
-                    </DialogClose>
+            <AppDialog
+                open={openDialogKey === "flag-claim"}
+                title="Flag Claim"
+                className="[&_[data-slot='note-bar']]:bg-rose-red"
+                note={
+                    <p className="text-sm text-iron-gray">
+                        <span className="font-medium text-foreground">
+                            Note:{" "}
+                        </span>
+                        You are about to flag a claim for review. Once flagged
+                        it can only be approved by a super admin.
+                    </p>
+                }
+                action={
                     <Button
                         size="sm"
                         className="bg-rose-red hover:bg-rose-red/90"
                     >
                         Flag Claim
                     </Button>
-                </div>
-            </AppDialog>
+                }
+            />
         </>
     );
 };
