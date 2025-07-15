@@ -4,15 +4,15 @@ import { cn } from "~/lib/utils"
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div
-      data-slot="card"
-      className={cn(
-        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
-        className
-      )}
-      {...props}
-    />
-  )
+      <div
+          data-slot="card"
+          className={cn(
+              "bg-card text-card-foreground flex flex-col gap-6 rounded-xl py-6 shadow-[0_0_0_1px_#00000014,inset_0_0_0_1.5px_#E4E4E799,inset_0_0_0_1px_#FFFFFF]",
+              className,
+          )}
+          {...props}
+      />
+  );
 }
 
 function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
@@ -82,11 +82,6 @@ function CardFooter({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 export {
-  Card,
-  CardHeader,
-  CardFooter,
-  CardTitle,
-  CardAction,
-  CardDescription,
-  CardContent,
+  Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle
 }
+
