@@ -1,12 +1,18 @@
-import { Bell, Search } from "lucide-react";
-import { useState } from "react";
+import { Bell, HamburgerIcon, Search } from "lucide-react";
+import { useCallback, useState } from "react";
 import { Link } from "react-router";
 import { cn } from "~/lib/utils";
+import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
-import { SidebarTrigger } from "./ui/sidebar";
+import { useSidebar } from "./ui/sidebar";
 
 const AppHeader = ({ className }: React.ComponentProps<"header">) => {
     const [searchTerm, setSearchTerm] = useState("");
+    const { openMobile, toggleSidebar } = useSidebar();
+
+    const handleHamburgerClick = useCallback(() => {
+        if (openMobile) toggleSidebar();
+    }, [openMobile, toggleSidebar]);
 
     return (
         <header
@@ -20,7 +26,14 @@ const AppHeader = ({ className }: React.ComponentProps<"header">) => {
                     <img src="/logo.png" alt="Claimix Logo" />
                 </Link>
 
-                <SidebarTrigger className="lg:hidden order-2 ml-auto" />
+                <Button
+                    size="icon"
+                    variant="ghost"
+                    className="lg:hidden order-2 ml-auto"
+                    onClick={handleHamburgerClick}
+                >
+                    <HamburgerIcon />
+                </Button>
 
                 <div className="relative md:block hidden">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-3.5 text-slate-gray" />

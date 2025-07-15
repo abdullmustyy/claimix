@@ -3,7 +3,6 @@ import {
     AreaChart,
     CartesianGrid,
     Label,
-    Legend,
     Line,
     LineChart,
     Pie,
@@ -12,8 +11,6 @@ import {
     PolarGrid,
     Radar,
     RadarChart,
-    ResponsiveContainer,
-    Tooltip,
     XAxis,
     YAxis,
 } from "recharts";
@@ -194,7 +191,7 @@ export default function AnalyticsPage() {
                     </CardContent>
                 </Card>
                 {/* Top Claim Types */}
-                <Card className="md:py-0 py-4 md:pt-4 md:col-span-4 gap-0 rounded-md">
+                <Card className="py-4 md:col-span-4 gap-0 rounded-md">
                     <CardHeader className="flex-row items-center justify-between flex">
                         <CardTitle className="font-medium">
                             Top claim types
@@ -212,10 +209,10 @@ export default function AnalyticsPage() {
                             </SelectContent>
                         </Select>
                     </CardHeader>
-                    <CardContent className="flex flex-col md:flex-row md:gap-4 items-center md:px-0 px-6 md:pr-6">
+                    <CardContent className="flex flex-col md:flex-row md:gap-4 items-center h-full md:px-0 px-6 md:pr-6">
                         <ChartContainer
                             config={pieChartConfig}
-                            className="md:w-1/2 w-full md:min-h-full md:aspect-auto aspect-square"
+                            className="md:w-1/2 w-full md:min-h-full aspect-square"
                         >
                             <PieChart>
                                 <ChartTooltip
@@ -271,7 +268,7 @@ export default function AnalyticsPage() {
                                 </Pie>
                             </PieChart>
                         </ChartContainer>
-                        <div className="md:w-1/2 w-full md:py-6 flex flex-col gap-2.5 text-[0.8125rem]">
+                        <div className="md:w-1/2 w-full flex flex-col gap-2.5 text-[0.8125rem]">
                             {CLAIM_TYPES.map((ct, i) => (
                                 <div
                                     key={ct.name + i}
@@ -451,6 +448,44 @@ export default function AnalyticsPage() {
                         className="size-full md:aspect-[2.5/1] aspect-square"
                     >
                         <AreaChart accessibilityLayer data={autoEscalatedData}>
+                            <defs>
+                                <linearGradient
+                                    id="auto-gradient"
+                                    x1="0"
+                                    y1="0"
+                                    x2="0"
+                                    y2="1"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stopColor="#5CC8BE"
+                                        stopOpacity={0.2}
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stopColor="#5CC8BE"
+                                        stopOpacity={0}
+                                    />
+                                </linearGradient>
+                                <linearGradient
+                                    id="escalated-gradient"
+                                    x1="0"
+                                    y1="0"
+                                    x2="0"
+                                    y2="1"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stopColor="#357AF6"
+                                        stopOpacity={0.2}
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stopColor="#357AF6"
+                                        stopOpacity={0}
+                                    />
+                                </linearGradient>
+                            </defs>
                             <CartesianGrid vertical={false} stroke="#F2F2F7" />
                             <XAxis
                                 dataKey="name"
@@ -474,17 +509,17 @@ export default function AnalyticsPage() {
                             <Area
                                 dataKey="auto"
                                 type="natural"
-                                fill="var(--color-auto)"
-                                fillOpacity={0.4}
+                                fill="url(#auto-gradient)"
                                 stroke="var(--color-auto)"
+                                strokeWidth={2}
                                 stackId="a"
                             />
                             <Area
                                 dataKey="escalated"
                                 type="natural"
-                                fill="var(--color-escalated)"
-                                fillOpacity={0.4}
+                                fill="url(#escalated-gradient)"
                                 stroke="var(--color-escalated)"
+                                strokeWidth={2}
                                 stackId="a"
                             />
                             <ChartLegend
