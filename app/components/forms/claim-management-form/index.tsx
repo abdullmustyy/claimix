@@ -33,7 +33,7 @@ import type { IDialogInfoMap, IOpenDialogKey } from "~/types/app-dialog";
 
 export type ClaimManagementFormType = z.infer<typeof ClaimManagementSchema>;
 
-const ClaimManagementForm = () => {
+const ClaimManagementForm = ({ className }: React.ComponentProps<"div">) => {
     const { openDialogKey, onOpen } = useAppDialog();
     const [currentDialogKey, setCurrentDialogKey] = useState<IOpenDialogKey>();
 
@@ -121,9 +121,9 @@ const ClaimManagementForm = () => {
     };
 
     return (
-        <div className="flex flex-col gap-5 px-5">
+        <div className={cn("flex flex-col gap-5", className)}>
             <div className="flex items-center justify-between">
-                <h3 className="text-xl">Claim Management</h3>
+                <h3 className="text-lg md:text-xl">Claim Management</h3>
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button
