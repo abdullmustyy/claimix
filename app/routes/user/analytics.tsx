@@ -191,8 +191,8 @@ export default function AnalyticsPage() {
                     </CardContent>
                 </Card>
                 {/* Top Claim Types */}
-                <Card className="py-4 md:col-span-4 gap-0 rounded-md">
-                    <CardHeader className="flex-row items-center justify-between flex md:px-6 px-4">
+                <Card className="py-4 md:col-span-4 gap-4 rounded-md">
+                    <CardHeader className="flex-row items-start justify-between flex md:px-6 px-4">
                         <CardTitle className="font-medium">
                             Top claim types
                         </CardTitle>
