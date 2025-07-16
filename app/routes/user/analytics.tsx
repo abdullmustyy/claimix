@@ -178,12 +178,12 @@ export default function AnalyticsPage() {
             <div className="grid grid-cols-1 md:grid-cols-9 gap-4">
                 {/* Claims Processed */}
                 <Card className="justify-between py-4 md:col-span-2 rounded-md">
-                    <CardHeader className="px-5">
+                    <CardHeader className="md:px-5 px-4">
                         <CardTitle className="font-medium">
                             Claims processed
                         </CardTitle>
                     </CardHeader>
-                    <CardContent className="px-5">
+                    <CardContent className="md:px-5 px-4">
                         <div className="text-4xl font-geist-mono font-medium">
                             450
                         </div>
@@ -192,7 +192,7 @@ export default function AnalyticsPage() {
                 </Card>
                 {/* Top Claim Types */}
                 <Card className="py-4 md:col-span-4 gap-0 rounded-md">
-                    <CardHeader className="flex-row items-center justify-between flex">
+                    <CardHeader className="flex-row items-center justify-between flex md:px-6 px-4">
                         <CardTitle className="font-medium">
                             Top claim types
                         </CardTitle>
@@ -289,7 +289,7 @@ export default function AnalyticsPage() {
                 </Card>
                 {/* Total Payouts */}
                 <Card className="md:col-span-3 rounded-md py-4 gap-0 -space-y-10">
-                    <CardHeader className="items-start justify-between flex">
+                    <CardHeader className="items-start justify-between flex md:px-6 px-4">
                         <div className="flex flex-col gap-2">
                             <CardTitle className="font-normal">
                                 Total Payouts
@@ -351,8 +351,8 @@ export default function AnalyticsPage() {
             </div>
 
             {/* Claims Volume over Time */}
-            <Card className="rounded-md gap-4">
-                <CardHeader className="items-end justify-between flex">
+            <Card className="rounded-md gap-4 py-4">
+                <CardHeader className="items-end justify-between flex md:px-6 px-4">
                     <CardTitle className="font-normal flex flex-col gap-2">
                         <span>Claims volume over time</span>
                         <span className="text-2xl">
@@ -373,7 +373,7 @@ export default function AnalyticsPage() {
                         </SelectContent>
                     </Select>
                 </CardHeader>
-                <CardContent className="h-full">
+                <CardContent className="h-full md:px-6 px-4">
                     <ChartContainer
                         config={lineChartConfig}
                         className="size-full md:aspect-[2/1] aspect-square"
@@ -423,8 +423,8 @@ export default function AnalyticsPage() {
             </Card>
 
             {/* Auto-approved vs Escalated */}
-            <Card className="rounded-md gap-4">
-                <CardHeader className="items-end justify-between flex">
+            <Card className="rounded-md gap-4 py-4">
+                <CardHeader className="items-end justify-between flex md:px-6 px-4">
                     <CardTitle className="font-normal flex flex-col gap-2">
                         <span>% auto-approved vs escalated</span>
                         <span className="font-geist-mono text-2xl">68%</span>
@@ -442,7 +442,7 @@ export default function AnalyticsPage() {
                         </SelectContent>
                     </Select>
                 </CardHeader>
-                <CardContent className="h-full">
+                <CardContent className="h-full md:px-6 px-4">
                     <ChartContainer
                         config={autoEscalatedConfig}
                         className="size-full md:aspect-[2.5/1] aspect-square"

@@ -1,5 +1,5 @@
-import { Bell, HamburgerIcon, Search } from "lucide-react";
-import { useCallback, useState } from "react";
+import { Bell, Menu, Search } from "lucide-react";
+import { useState } from "react";
 import { Link } from "react-router";
 import { cn } from "~/lib/utils";
 import { Button } from "./ui/button";
@@ -8,11 +8,7 @@ import { useSidebar } from "./ui/sidebar";
 
 const AppHeader = ({ className }: React.ComponentProps<"header">) => {
     const [searchTerm, setSearchTerm] = useState("");
-    const { openMobile, toggleSidebar } = useSidebar();
-
-    const handleHamburgerClick = useCallback(() => {
-        if (openMobile) toggleSidebar();
-    }, [openMobile, toggleSidebar]);
+    const { toggleSidebar } = useSidebar();
 
     return (
         <header
@@ -30,9 +26,9 @@ const AppHeader = ({ className }: React.ComponentProps<"header">) => {
                     size="icon"
                     variant="ghost"
                     className="lg:hidden order-2 ml-auto"
-                    onClick={handleHamburgerClick}
+                    onClick={toggleSidebar}
                 >
-                    <HamburgerIcon />
+                    <Menu />
                 </Button>
 
                 <div className="relative md:block hidden">
