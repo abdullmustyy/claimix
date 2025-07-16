@@ -289,7 +289,7 @@ export default function AnalyticsPage() {
                 </Card>
                 {/* Total Payouts */}
                 <Card className="md:col-span-3 rounded-md py-4 gap-0 -space-y-10">
-                    <CardHeader className="items-start justify-between flex md:px-6 px-4">
+                    <CardHeader className="items-start justify-between flex md:px-6 px-4 z-10">
                         <div className="flex flex-col gap-2">
                             <CardTitle className="font-normal">
                                 Total Payouts
